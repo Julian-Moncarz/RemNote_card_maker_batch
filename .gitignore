@@ -1,0 +1,17 @@
+# Ignore all generated flashcards and notes
+remnote_cards/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore environment variables
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode, PyCharm, and other IDE configs
+.vscode/
+.idea/
