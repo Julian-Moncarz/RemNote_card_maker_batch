@@ -99,15 +99,27 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     print(f"Output directory: {output_dir}")
 
-    # Get all PDF and image files from the source directory
+    # Get all PDF and image files from the source directory and its subfolders
     source_path = Path(args.source_dir)
     supported_extensions = ['.pdf', '.jpg', '.jpeg', '.png']
     files_to_process = []
 
-    # Case-insensitive extension matching
-    for file in source_path.iterdir():
-        if file.is_file() and file.suffix.lower() in supported_extensions:
-            files_to_process.append(file)
+    # Recursive function to find files in all subfolders
+    def find_files_recursive(directory):
+        files_found = []
+        try:
+            for item in directory.iterdir():
+                if item.is_file() and item.suffix.lower() in supported_extensions:
+                    files_found.append(item)
+                elif item.is_dir():
+                    # Recursively search in subdirectories
+                    files_found.extend(find_files_recursive(item))
+        except PermissionError:
+            print(f"Warning: Permission denied for directory {directory}")
+        return files_found
+
+    # Find all files recursively
+    files_to_process = find_files_recursive(source_path)
 
     if not files_to_process:
         print(f"No PDF or image files found in {args.source_dir}")
