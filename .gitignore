@@ -7,6 +7,9 @@ remnote_cards/
 # Ignore environment variables
 .env
 
+# Ignore prompt test results
+prompt_test_results/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
