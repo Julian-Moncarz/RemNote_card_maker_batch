@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Answer Flashcard Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h1>Test Answer Flashcard Generator</h1>
+                </div>
+                <div class="header-description">
+                    <p class="subtitle">Transform your tests and assignments into RemNote flashcards</p>
+                    <div class="process-flow">
+                        <div class="flow-step">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Upload Tests</span>
+                        </div>
+                        <i class="fas fa-arrow-right flow-arrow"></i>
+                        <div class="flow-step">
+                            <i class="fas fa-brain"></i>
+                            <span>AI Analysis</span>
+                        </div>
+                        <i class="fas fa-arrow-right flow-arrow"></i>
+                        <div class="flow-step">
+                            <i class="fas fa-cards-blank"></i>
+                            <span>RemNote Cards</span>
+                        </div>
+                    </div>
+                    <p class="feature-description">
+                        <i class="fas fa-check-circle"></i>
+                        Automatically extracts questions and generates step-by-step answer flashcards
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Advanced Settings Section -->
+            <section class="advanced-section">
+                <div class="advanced-toggle" id="advancedToggle">
+                    <i class="fas fa-cog"></i>
+                    <span>Advanced Settings</span>
+                    <i class="fas fa-chevron-down toggle-icon" id="toggleIcon"></i>
+                </div>
+                
+                <div class="advanced-content" id="advancedContent">
+                    <div class="prompt-editor-card">
+                        <div class="prompt-header">
+                            <h4><i class="fas fa-edit"></i> AI Prompt Template</h4>
+                            <p>Customize how the AI analyzes your documents and generates flashcards</p>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="reset-prompt-btn" id="resetPromptBtn">
+                                <i class="fas fa-undo"></i>
+                                Reset to Default
+                            </button>
+                        </div>
+                        <textarea 
+                            class="prompt-editor" 
+                            id="promptEditor" 
+                            placeholder="Enter your custom AI prompt here...">{{ default_prompt }}</textarea>
+                        <div class="prompt-info">
+                            <small><i class="fas fa-info-circle"></i> This prompt will be sent to the AI along with your documents to generate flashcards.</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Upload Section -->
+            <section class="upload-section">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-content">
+                        <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                        <h2>Drag & Drop Your Files</h2>
+                        <p>Upload PDFs, JPGs, or PNGs of your tests and study materials</p>
+                        <button class="browse-btn" id="browseBtn">
+                            <i class="fas fa-folder-open"></i>
+                            Browse Files
+                        </button>
+                        <input type="file" id="fileInput" multiple accept=".pdf,.jpg,.jpeg,.png" style="display: none;">
+                    </div>
+                </div>
+
+                <div class="selected-files" id="selectedFiles" style="display: none;">
+                    <h3><i class="fas fa-file-alt"></i> Selected Files</h3>
+                    <div class="file-list" id="fileList"></div>
+                    <div class="upload-actions">
+                        <button class="process-btn" id="processBtn">
+                            <i class="fas fa-magic"></i>
+                            Generate Flashcards
+                        </button>
+                        <button class="clear-btn" id="clearBtn">
+                            <i class="fas fa-trash-alt"></i>
+                            Clear All
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Progress Section -->
+            <section class="progress-section" id="progressSection" style="display: none;">
+                <div class="progress-card">
+                    <h3><i class="fas fa-cog fa-spin"></i> Processing Files</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Preparing to process files...</p>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <div class="results-header">
+                    <h3><i class="fas fa-check-circle"></i> Your Flashcards Are Ready!</h3>
+                    <div class="results-actions">
+                        <button class="copy-btn" id="copyBtn">
+                            <i class="fas fa-copy"></i>
+                            Copy All
+                        </button>
+                        <button class="download-btn" id="downloadBtn">
+                            <i class="fas fa-download"></i>
+                            Download
+                        </button>
+                        <button class="new-batch-btn" id="newBatchBtn">
+                            <i class="fas fa-plus"></i>
+                            New Batch
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="flashcards-container">
+                    <div class="editor-toolbar">
+                        <div class="toolbar-left">
+                            <span class="file-count" id="fileCount">0 files processed</span>
+                        </div>
+                        <div class="toolbar-right">
+                            <button class="select-all-btn" id="selectAllBtn">
+                                <i class="fas fa-check-square"></i>
+                                Select All
+                            </button>
+                        </div>
+                    </div>
+                    <textarea 
+                        class="flashcards-editor" 
+                        id="flashcardsEditor" 
+                        placeholder="Your generated flashcards will appear here...">
+                    </textarea>
+                </div>
+            </section>
+        </main>
+
+        <!-- Toast Notifications -->
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

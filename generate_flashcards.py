@@ -20,21 +20,34 @@ import google.generativeai as genai
 
 # RemNote prompt template 
 REMNOTE_PROMPT_TEMPLATE = """
-Extract the test questions from the provided document.
-If the problem has multiple sections, put all the sections into one card.
-Ignore the answers I have written and solve the problem yourself step by step (make sure you are correct!, and clear in your answer!)
 
-Output a markdown document in the following format:
+You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the document
+2. Include ALL numerical values, constants, and given data in the question portion
+3. Provide the CORRECT solution/answer for each question
+4. Ignore any existing student answers in the document
+5. Solve problems step-by-step but provide final answers clearly
+6. Focus ONLY on exam-relevant content (ignore lab procedures, general instructions, etc.)
+
+Output ONLY in this exact format:
 
 * question == answer
 * question == answer
 * question == answer
 
-etc
+Requirements:
+- Extract the EXACT question text as it appears in the test
+- Include ALL given numbers, units, constants, and data in the question portion
+- Make sure the question is self-contained with all information needed to solve it
+- Provide complete, correct answers
+- For calculations, show key steps but keep the final answer on one line
+- For long answers, keep everything on a single line after the "=="
+- Do not add any extra text, headers, or formatting
+- Do not include non-test content like instructions or lab procedures
 
-Do not include any additional text or formatting.
-
-The question should be the question from the provided document and the answer should be the correct, step by step solution you found to the problem.
+Example format:
+* A 2μC charge is located 3m away from point P. What is the electric field at point P? == E = kq/r² = (9×10⁹)(2×10⁻⁶)/(3)² = 2000 N/C
 
 """
 

@@ -2,7 +2,7 @@
 remnote_cards/
 
 # Ignore virtual environment
-.venv/
+venv/
 
 # Ignore environment variables
 .env

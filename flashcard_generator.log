@@ -1,0 +1,1517 @@
+2025-06-06 21:37:42,294 - __main__ - WARNING - ⚠️  Warning: GOOGLE_API_KEY environment variable not set!
+2025-06-06 21:37:42,294 - __main__ - WARNING - Please set your Google API key:
+2025-06-06 21:37:42,294 - __main__ - WARNING - export GOOGLE_API_KEY='your-api-key-here'
+2025-06-06 21:37:42,294 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:37:42,437 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.86.44:8080
+2025-06-06 21:37:42,437 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 21:37:42,441 - werkzeug - INFO -  * Restarting with stat
+2025-06-06 21:37:43,925 - __main__ - WARNING - ⚠️  Warning: GOOGLE_API_KEY environment variable not set!
+2025-06-06 21:37:43,926 - __main__ - WARNING - Please set your Google API key:
+2025-06-06 21:37:43,926 - __main__ - WARNING - export GOOGLE_API_KEY='your-api-key-here'
+2025-06-06 21:37:43,926 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:37:43,995 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 21:37:44,025 - werkzeug - INFO -  * Debugger PIN: 144-029-226
+2025-06-06 21:37:59,699 - root - INFO - 📄 Serving main web interface
+2025-06-06 21:37:59,829 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:37:59] "GET / HTTP/1.1" 200 -
+2025-06-06 21:38:00,491 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:38:00] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-06 21:38:00,564 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:38:00] "GET /static/script.js HTTP/1.1" 200 -
+2025-06-06 21:38:01,860 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:38:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-06 21:38:37,692 - __main__ - INFO - === Starting file processing request ===
+2025-06-06 21:38:37,699 - __main__ - INFO - Received 2 files
+2025-06-06 21:38:37,699 - __main__ - INFO - Custom prompt provided: Yes
+2025-06-06 21:38:37,700 - __main__ - INFO - Custom prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:38:37,700 - __main__ - ERROR - Google API key not configured
+2025-06-06 21:38:37,701 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:38:37] "[35m[1mPOST /process_files HTTP/1.1[0m" 500 -
+2025-06-06 21:40:02,588 - werkzeug - INFO -  * Detected change in '/Users/julianmoncarz/flashcard_flashcard_generator/app.py', reloading
+2025-06-06 21:40:02,930 - werkzeug - INFO -  * Restarting with stat
+2025-06-06 21:40:04,422 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:40:04,422 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:40:04,510 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 21:40:04,539 - werkzeug - INFO -  * Debugger PIN: 144-029-226
+2025-06-06 21:40:52,747 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:40:52,747 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:41:16,783 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:41:16,783 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:41:16,873 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.86.44:8080
+2025-06-06 21:41:16,873 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 21:41:16,876 - werkzeug - INFO -  * Restarting with stat
+2025-06-06 21:41:17,880 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:41:17,881 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:41:17,935 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 21:41:17,953 - werkzeug - INFO -  * Debugger PIN: 144-029-226
+2025-06-06 21:41:40,091 - root - INFO - 📄 Serving main web interface
+2025-06-06 21:41:40,102 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:41:40] "GET / HTTP/1.1" 200 -
+2025-06-06 21:41:40,258 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:41:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-06 21:41:40,270 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:41:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-06-06 21:41:43,529 - root - INFO - 📄 Serving main web interface
+2025-06-06 21:41:43,531 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:41:43] "GET / HTTP/1.1" 200 -
+2025-06-06 21:41:43,605 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:41:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-06 21:41:43,606 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:41:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-06-06 21:41:56,653 - __main__ - INFO - === Starting file processing request ===
+2025-06-06 21:41:56,659 - __main__ - INFO - Received 1 files
+2025-06-06 21:41:56,659 - __main__ - INFO - Custom prompt provided: Yes
+2025-06-06 21:41:56,659 - __main__ - INFO - Custom prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:41:56,659 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:41:56,659 - __main__ - INFO - Valid files to process: ['Electric Potentials and Magnetic Fields Test.pdf']
+2025-06-06 21:41:56,662 - __main__ - INFO - Created temporary directories: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpuyxc017o/input, /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpuyxc017o/output
+2025-06-06 21:41:56,665 - __main__ - INFO - Saved file: Electric_Potentials_and_Magnetic_Fields_Test.pdf (95594 bytes)
+2025-06-06 21:41:56,665 - __main__ - INFO - Starting to process 1 files
+2025-06-06 21:41:56,665 - __main__ - INFO - Processing file 1/1: Electric_Potentials_and_Magnetic_Fields_Test.pdf
+2025-06-06 21:41:56,665 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpuyxc017o/input/Electric_Potentials_and_Magnetic_Fields_Test.pdf
+2025-06-06 21:41:56,666 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpuyxc017o/output/Electric_Potentials_and_Magnetic_Fields_Test_flashcards.txt
+2025-06-06 21:41:56,666 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:41:56,666 - __main__ - INFO - Processing attempt 1 for Electric_Potentials_and_Magnetic_Fields_Test.pdf
+2025-06-06 21:41:56,666 - __main__ - INFO - Uploading file to Gemini: Electric_Potentials_and_Magnetic_Fields_Test.pdf
+2025-06-06 21:41:58,160 - __main__ - INFO - File uploaded successfully: files/qt0c63z4jvp0
+2025-06-06 21:41:58,160 - __main__ - INFO - Generating flashcards for Electric_Potentials_and_Magnetic_Fields_Test.pdf
+2025-06-06 21:42:14,673 - __main__ - INFO - Flashcards generated successfully for Electric_Potentials_and_Magnetic_Fields_Test.pdf
+2025-06-06 21:42:14,675 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpuyxc017o/output/Electric_Potentials_and_Magnetic_Fields_Test_flashcards.txt
+2025-06-06 21:42:15,181 - __main__ - INFO - ✅ Successfully processed: Electric_Potentials_and_Magnetic_Fields_Test.pdf
+2025-06-06 21:42:15,181 - __main__ - INFO - === Processing complete: 1/1 files successful ===
+2025-06-06 21:42:15,185 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:42:15] "POST /process_files HTTP/1.1" 200 -
+2025-06-06 21:46:08,373 - __main__ - INFO - === Starting file processing request ===
+2025-06-06 21:46:09,300 - __main__ - INFO - Received 32 files
+2025-06-06 21:46:09,300 - __main__ - INFO - Custom prompt provided: Yes
+2025-06-06 21:46:09,301 - __main__ - INFO - Custom prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:09,305 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:46:09,322 - __main__ - INFO - Valid files to process: ['Lesson 8 Bio 12  3-10-24 annotated.pdf', 'Lesson 10 Bio 12  10-10-24 annotated.pdf', 'Lesson 11 Bio 12 SBI4U 15-10-24 annotated.pdf', 'Lesson 12 Bio 12 SBI4U 17-10-24 annotated.pdf', 'Lesson 13 Bio 12 SBI4U 22-10-24 annotated.pdf', 'Lesson 14 Bio 12 SBI4U 24-10-24 annotated.pdf', 'Lesson 15 Bio 12 29-10-24 annotated.pdf', 'Lesson 16 Bio 12 31-10-24 annotated.pdf', 'Lesson 17 Bio 12 5-11-24 annotated.pdf', 'Lesson 18 Bio 12 12-11-24 annotated.pdf', 'Lesson 19 Bio 12 14-11-24 annotated.pdf', 'Lesson 20 Bio 12 19-11-24 annotated.pdf', 'Lesson 21 Bio 12 21-11-24 annotated.pdf', 'Lesson 22 Bio 12 27-11-24 annotated.pdf', 'Lesson 24 Bio 12 3-12-24 annotated.pdf', 'Lesson 25 Bio 12 5-12-24 annotated.pdf', 'Lesson 26 Bio 12 10-12-24 annotated.pdf', 'Lesson 27 Bio 12 12-12-24 annotated.pdf', 'Lesson 28 Bio 12 17-12-24 annotated.pdf', 'Lesson 30 Bio 12 9-1-25 annotated.pdf', 'Lesson 31 Bio 12 14-1-25 annotatedd.pdf', 'Lesson 32 Bio 12 16-1-25 annotated.pdf', 'Lesson 33 Bio 12 21-1-25 annotated.pdf', 'Lesson 34 Bio 12 23-1-25 annotated.pdf', 'Lesson 35 Bio 12 28-1-25 annotated.pdf', 'Lesson 39 Bio 12 11-2-25 annotated.pdf', 'Lesson 42 Bio 12 4-3-25 annotated.pdf', 'Lesson 43 Bio 12 4-3-25 annotated.pdf', 'Lesson 44 Bio 12 25-3-25 annotated.pdf', 'Lesson 46 Bio 12 1-4-25 annotated.pdf', 'Lesson 49 Bio 12 10-4-25 annotated.pdf', 'Lesson 52 Bio 12 22-4-25 annotated.pdf']
+2025-06-06 21:46:09,327 - __main__ - INFO - Created temporary directories: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input, /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output
+2025-06-06 21:46:09,455 - __main__ - INFO - Saved file: Lesson_8_Bio_12_3-10-24_annotated.pdf (4484265 bytes)
+2025-06-06 21:46:09,493 - __main__ - INFO - Saved file: Lesson_10_Bio_12_10-10-24_annotated.pdf (2391639 bytes)
+2025-06-06 21:46:09,539 - __main__ - INFO - Saved file: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf (4506440 bytes)
+2025-06-06 21:46:09,550 - __main__ - INFO - Saved file: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf (2040397 bytes)
+2025-06-06 21:46:09,568 - __main__ - INFO - Saved file: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf (1579430 bytes)
+2025-06-06 21:46:09,587 - __main__ - INFO - Saved file: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf (2718096 bytes)
+2025-06-06 21:46:09,615 - __main__ - INFO - Saved file: Lesson_15_Bio_12_29-10-24_annotated.pdf (3084468 bytes)
+2025-06-06 21:46:09,640 - __main__ - INFO - Saved file: Lesson_16_Bio_12_31-10-24_annotated.pdf (2944185 bytes)
+2025-06-06 21:46:09,647 - __main__ - INFO - Saved file: Lesson_17_Bio_12_5-11-24_annotated.pdf (882008 bytes)
+2025-06-06 21:46:09,671 - __main__ - INFO - Saved file: Lesson_18_Bio_12_12-11-24_annotated.pdf (3646827 bytes)
+2025-06-06 21:46:09,685 - __main__ - INFO - Saved file: Lesson_19_Bio_12_14-11-24_annotated.pdf (2812745 bytes)
+2025-06-06 21:46:09,701 - __main__ - INFO - Saved file: Lesson_20_Bio_12_19-11-24_annotated.pdf (1940866 bytes)
+2025-06-06 21:46:09,709 - __main__ - INFO - Saved file: Lesson_21_Bio_12_21-11-24_annotated.pdf (1476583 bytes)
+2025-06-06 21:46:09,738 - __main__ - INFO - Saved file: Lesson_22_Bio_12_27-11-24_annotated.pdf (3392658 bytes)
+2025-06-06 21:46:09,767 - __main__ - INFO - Saved file: Lesson_24_Bio_12_3-12-24_annotated.pdf (4284477 bytes)
+2025-06-06 21:46:09,794 - __main__ - INFO - Saved file: Lesson_25_Bio_12_5-12-24_annotated.pdf (3678304 bytes)
+2025-06-06 21:46:09,843 - __main__ - INFO - Saved file: Lesson_26_Bio_12_10-12-24_annotated.pdf (5377577 bytes)
+2025-06-06 21:46:09,908 - __main__ - INFO - Saved file: Lesson_27_Bio_12_12-12-24_annotated.pdf (5134098 bytes)
+2025-06-06 21:46:09,925 - __main__ - INFO - Saved file: Lesson_28_Bio_12_17-12-24_annotated.pdf (1424091 bytes)
+2025-06-06 21:46:09,939 - __main__ - INFO - Saved file: Lesson_30_Bio_12_9-1-25_annotated.pdf (1324969 bytes)
+2025-06-06 21:46:09,979 - __main__ - INFO - Saved file: Lesson_31_Bio_12_14-1-25_annotatedd.pdf (5317012 bytes)
+2025-06-06 21:46:10,016 - __main__ - INFO - Saved file: Lesson_32_Bio_12_16-1-25_annotated.pdf (5054783 bytes)
+2025-06-06 21:46:10,041 - __main__ - INFO - Saved file: Lesson_33_Bio_12_21-1-25_annotated.pdf (2222800 bytes)
+2025-06-06 21:46:10,069 - __main__ - INFO - Saved file: Lesson_34_Bio_12_23-1-25_annotated.pdf (1129599 bytes)
+2025-06-06 21:46:10,101 - __main__ - INFO - Saved file: Lesson_35_Bio_12_28-1-25_annotated.pdf (3382442 bytes)
+2025-06-06 21:46:10,126 - __main__ - INFO - Saved file: Lesson_39_Bio_12_11-2-25_annotated.pdf (3770378 bytes)
+2025-06-06 21:46:10,146 - __main__ - INFO - Saved file: Lesson_42_Bio_12_4-3-25_annotated.pdf (3071327 bytes)
+2025-06-06 21:46:10,164 - __main__ - INFO - Saved file: Lesson_43_Bio_12_4-3-25_annotated.pdf (4619175 bytes)
+2025-06-06 21:46:10,186 - __main__ - INFO - Saved file: Lesson_44_Bio_12_25-3-25_annotated.pdf (2879764 bytes)
+2025-06-06 21:46:10,206 - __main__ - INFO - Saved file: Lesson_46_Bio_12_1-4-25_annotated.pdf (5427329 bytes)
+2025-06-06 21:46:10,214 - __main__ - INFO - Saved file: Lesson_49_Bio_12_10-4-25_annotated.pdf (2079596 bytes)
+2025-06-06 21:46:10,244 - __main__ - INFO - Saved file: Lesson_52_Bio_12_22-4-25_annotated.pdf (3027547 bytes)
+2025-06-06 21:46:10,245 - __main__ - INFO - Starting to process 32 files
+2025-06-06 21:46:10,245 - __main__ - INFO - Processing file 1/32: Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:46:10,246 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:46:10,320 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_8_Bio_12_3-10-24_annotated_flashcards.txt
+2025-06-06 21:46:10,321 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:10,323 - __main__ - INFO - Processing attempt 1 for Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:46:10,323 - __main__ - INFO - Uploading file to Gemini: Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:46:11,825 - __main__ - INFO - File uploaded successfully: files/akhzy1a3hri2
+2025-06-06 21:46:11,828 - __main__ - INFO - Generating flashcards for Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:46:18,124 - __main__ - INFO - Flashcards generated successfully for Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:46:18,126 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_8_Bio_12_3-10-24_annotated_flashcards.txt
+2025-06-06 21:46:18,632 - __main__ - INFO - ✅ Successfully processed: Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:46:18,632 - __main__ - INFO - Processing file 2/32: Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:46:18,632 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:46:18,633 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_10_Bio_12_10-10-24_annotated_flashcards.txt
+2025-06-06 21:46:18,633 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:18,634 - __main__ - INFO - Processing attempt 1 for Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:46:18,635 - __main__ - INFO - Uploading file to Gemini: Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:46:20,436 - __main__ - INFO - File uploaded successfully: files/59cjc0yr7wqd
+2025-06-06 21:46:20,437 - __main__ - INFO - Generating flashcards for Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:46:23,517 - __main__ - INFO - Flashcards generated successfully for Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:46:23,524 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_10_Bio_12_10-10-24_annotated_flashcards.txt
+2025-06-06 21:46:24,029 - __main__ - INFO - ✅ Successfully processed: Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:46:24,030 - __main__ - INFO - Processing file 3/32: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:46:24,030 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:46:24,031 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_11_Bio_12_SBI4U_15-10-24_annotated_flashcards.txt
+2025-06-06 21:46:24,032 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:24,032 - __main__ - INFO - Processing attempt 1 for Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:46:24,033 - __main__ - INFO - Uploading file to Gemini: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:46:25,588 - __main__ - INFO - File uploaded successfully: files/aa1t9i6iv1fp
+2025-06-06 21:46:25,588 - __main__ - INFO - Generating flashcards for Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:46:30,258 - __main__ - INFO - Flashcards generated successfully for Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:46:30,260 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_11_Bio_12_SBI4U_15-10-24_annotated_flashcards.txt
+2025-06-06 21:46:30,764 - __main__ - INFO - ✅ Successfully processed: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:46:30,764 - __main__ - INFO - Processing file 4/32: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:46:30,765 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:46:30,765 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_12_Bio_12_SBI4U_17-10-24_annotated_flashcards.txt
+2025-06-06 21:46:30,766 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:30,767 - __main__ - INFO - Processing attempt 1 for Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:46:30,767 - __main__ - INFO - Uploading file to Gemini: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:46:32,102 - __main__ - INFO - File uploaded successfully: files/ad97dddnkbm4
+2025-06-06 21:46:32,103 - __main__ - INFO - Generating flashcards for Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:46:35,353 - __main__ - INFO - Flashcards generated successfully for Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:46:35,355 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_12_Bio_12_SBI4U_17-10-24_annotated_flashcards.txt
+2025-06-06 21:46:35,858 - __main__ - INFO - ✅ Successfully processed: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:46:35,858 - __main__ - INFO - Processing file 5/32: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:46:35,859 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:46:35,859 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_13_Bio_12_SBI4U_22-10-24_annotated_flashcards.txt
+2025-06-06 21:46:35,860 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:35,861 - __main__ - INFO - Processing attempt 1 for Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:46:35,861 - __main__ - INFO - Uploading file to Gemini: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:46:37,488 - __main__ - INFO - File uploaded successfully: files/to9ekg0lezux
+2025-06-06 21:46:37,489 - __main__ - INFO - Generating flashcards for Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:46:40,702 - __main__ - INFO - Flashcards generated successfully for Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:46:40,704 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_13_Bio_12_SBI4U_22-10-24_annotated_flashcards.txt
+2025-06-06 21:46:41,208 - __main__ - INFO - ✅ Successfully processed: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:46:41,208 - __main__ - INFO - Processing file 6/32: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:46:41,208 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:46:41,209 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_14_Bio_12_SBI4U_24-10-24_annotated_flashcards.txt
+2025-06-06 21:46:41,209 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:41,210 - __main__ - INFO - Processing attempt 1 for Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:46:41,210 - __main__ - INFO - Uploading file to Gemini: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:46:42,563 - __main__ - INFO - File uploaded successfully: files/ok0uzce3v56p
+2025-06-06 21:46:42,564 - __main__ - INFO - Generating flashcards for Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:46:46,129 - __main__ - INFO - Flashcards generated successfully for Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:46:46,131 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_14_Bio_12_SBI4U_24-10-24_annotated_flashcards.txt
+2025-06-06 21:46:46,636 - __main__ - INFO - ✅ Successfully processed: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:46:46,637 - __main__ - INFO - Processing file 7/32: Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:46:46,637 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:46:46,638 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_15_Bio_12_29-10-24_annotated_flashcards.txt
+2025-06-06 21:46:46,638 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:46,639 - __main__ - INFO - Processing attempt 1 for Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:46:46,640 - __main__ - INFO - Uploading file to Gemini: Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:46:48,128 - __main__ - INFO - File uploaded successfully: files/6chngwrnsoc3
+2025-06-06 21:46:48,129 - __main__ - INFO - Generating flashcards for Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:46:52,893 - __main__ - INFO - Flashcards generated successfully for Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:46:52,896 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_15_Bio_12_29-10-24_annotated_flashcards.txt
+2025-06-06 21:46:53,400 - __main__ - INFO - ✅ Successfully processed: Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:46:53,401 - __main__ - INFO - Processing file 8/32: Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:46:53,401 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:46:53,402 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_16_Bio_12_31-10-24_annotated_flashcards.txt
+2025-06-06 21:46:53,403 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:46:53,403 - __main__ - INFO - Processing attempt 1 for Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:46:53,404 - __main__ - INFO - Uploading file to Gemini: Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:46:55,188 - __main__ - INFO - File uploaded successfully: files/8g9s44hcfho3
+2025-06-06 21:46:55,189 - __main__ - INFO - Generating flashcards for Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:46:59,747 - __main__ - INFO - Flashcards generated successfully for Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:46:59,748 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_16_Bio_12_31-10-24_annotated_flashcards.txt
+2025-06-06 21:47:00,254 - __main__ - INFO - ✅ Successfully processed: Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:47:00,254 - __main__ - INFO - Processing file 9/32: Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:47:00,254 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:47:00,255 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_17_Bio_12_5-11-24_annotated_flashcards.txt
+2025-06-06 21:47:00,256 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:00,256 - __main__ - INFO - Processing attempt 1 for Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:47:00,256 - __main__ - INFO - Uploading file to Gemini: Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:47:01,743 - __main__ - INFO - File uploaded successfully: files/23m3i8t7x3b6
+2025-06-06 21:47:01,744 - __main__ - INFO - Generating flashcards for Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:47:04,560 - __main__ - INFO - Flashcards generated successfully for Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:47:04,561 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_17_Bio_12_5-11-24_annotated_flashcards.txt
+2025-06-06 21:47:05,075 - __main__ - INFO - ✅ Successfully processed: Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:47:05,078 - __main__ - INFO - Processing file 10/32: Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:47:05,091 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:47:05,094 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_18_Bio_12_12-11-24_annotated_flashcards.txt
+2025-06-06 21:47:05,095 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:05,095 - __main__ - INFO - Processing attempt 1 for Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:47:05,096 - __main__ - INFO - Uploading file to Gemini: Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:47:06,558 - __main__ - INFO - File uploaded successfully: files/f95fpdgpknl0
+2025-06-06 21:47:06,558 - __main__ - INFO - Generating flashcards for Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:47:10,600 - __main__ - INFO - Flashcards generated successfully for Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:47:10,601 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_18_Bio_12_12-11-24_annotated_flashcards.txt
+2025-06-06 21:47:11,103 - __main__ - INFO - ✅ Successfully processed: Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:47:11,104 - __main__ - INFO - Processing file 11/32: Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:47:11,104 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:47:11,105 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_19_Bio_12_14-11-24_annotated_flashcards.txt
+2025-06-06 21:47:11,105 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:11,106 - __main__ - INFO - Processing attempt 1 for Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:47:11,106 - __main__ - INFO - Uploading file to Gemini: Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:47:12,955 - __main__ - INFO - File uploaded successfully: files/ed04ubmj4vsq
+2025-06-06 21:47:12,955 - __main__ - INFO - Generating flashcards for Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:47:17,564 - __main__ - INFO - Flashcards generated successfully for Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:47:17,565 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_19_Bio_12_14-11-24_annotated_flashcards.txt
+2025-06-06 21:47:18,069 - __main__ - INFO - ✅ Successfully processed: Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:47:18,069 - __main__ - INFO - Processing file 12/32: Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:47:18,069 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:47:18,070 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_20_Bio_12_19-11-24_annotated_flashcards.txt
+2025-06-06 21:47:18,070 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:18,071 - __main__ - INFO - Processing attempt 1 for Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:47:18,071 - __main__ - INFO - Uploading file to Gemini: Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:47:19,861 - __main__ - INFO - File uploaded successfully: files/9ixvfro2fq7u
+2025-06-06 21:47:19,864 - __main__ - INFO - Generating flashcards for Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:47:22,984 - __main__ - INFO - Flashcards generated successfully for Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:47:22,986 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_20_Bio_12_19-11-24_annotated_flashcards.txt
+2025-06-06 21:47:23,490 - __main__ - INFO - ✅ Successfully processed: Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:47:23,490 - __main__ - INFO - Processing file 13/32: Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:47:23,490 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:47:23,491 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_21_Bio_12_21-11-24_annotated_flashcards.txt
+2025-06-06 21:47:23,491 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:23,491 - __main__ - INFO - Processing attempt 1 for Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:47:23,491 - __main__ - INFO - Uploading file to Gemini: Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:47:25,011 - __main__ - INFO - File uploaded successfully: files/5yvrtiwfsw4r
+2025-06-06 21:47:25,012 - __main__ - INFO - Generating flashcards for Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:47:28,417 - __main__ - INFO - Flashcards generated successfully for Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:47:28,419 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_21_Bio_12_21-11-24_annotated_flashcards.txt
+2025-06-06 21:47:28,923 - __main__ - INFO - ✅ Successfully processed: Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:47:28,923 - __main__ - INFO - Processing file 14/32: Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:47:28,923 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:47:28,924 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_22_Bio_12_27-11-24_annotated_flashcards.txt
+2025-06-06 21:47:28,924 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:28,924 - __main__ - INFO - Processing attempt 1 for Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:47:28,924 - __main__ - INFO - Uploading file to Gemini: Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:47:30,318 - __main__ - INFO - File uploaded successfully: files/z9qrw6luta9u
+2025-06-06 21:47:30,318 - __main__ - INFO - Generating flashcards for Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:47:33,650 - __main__ - INFO - Flashcards generated successfully for Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:47:33,651 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_22_Bio_12_27-11-24_annotated_flashcards.txt
+2025-06-06 21:47:34,156 - __main__ - INFO - ✅ Successfully processed: Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:47:34,156 - __main__ - INFO - Processing file 15/32: Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:47:34,156 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:47:34,157 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_24_Bio_12_3-12-24_annotated_flashcards.txt
+2025-06-06 21:47:34,158 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:34,158 - __main__ - INFO - Processing attempt 1 for Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:47:34,158 - __main__ - INFO - Uploading file to Gemini: Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:47:35,510 - __main__ - INFO - File uploaded successfully: files/w36mv9o95gzt
+2025-06-06 21:47:35,510 - __main__ - INFO - Generating flashcards for Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:47:39,273 - __main__ - INFO - Flashcards generated successfully for Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:47:39,275 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_24_Bio_12_3-12-24_annotated_flashcards.txt
+2025-06-06 21:47:39,779 - __main__ - INFO - ✅ Successfully processed: Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:47:39,779 - __main__ - INFO - Processing file 16/32: Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:47:39,779 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:47:39,780 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_25_Bio_12_5-12-24_annotated_flashcards.txt
+2025-06-06 21:47:39,780 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:39,781 - __main__ - INFO - Processing attempt 1 for Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:47:39,781 - __main__ - INFO - Uploading file to Gemini: Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:47:41,224 - __main__ - INFO - File uploaded successfully: files/mjsfpssw7mey
+2025-06-06 21:47:41,225 - __main__ - INFO - Generating flashcards for Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:47:44,854 - __main__ - INFO - Flashcards generated successfully for Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:47:44,855 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_25_Bio_12_5-12-24_annotated_flashcards.txt
+2025-06-06 21:47:45,358 - __main__ - INFO - ✅ Successfully processed: Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:47:45,358 - __main__ - INFO - Processing file 17/32: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:47:45,359 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:47:45,359 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_26_Bio_12_10-12-24_annotated_flashcards.txt
+2025-06-06 21:47:45,359 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:45,359 - __main__ - INFO - Processing attempt 1 for Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:47:45,360 - __main__ - INFO - Uploading file to Gemini: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:47:46,771 - __main__ - INFO - File uploaded successfully: files/9gosp2p3e7om
+2025-06-06 21:47:46,772 - __main__ - INFO - Generating flashcards for Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:47:51,201 - __main__ - INFO - Flashcards generated successfully for Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:47:51,202 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_26_Bio_12_10-12-24_annotated_flashcards.txt
+2025-06-06 21:47:51,706 - __main__ - INFO - ✅ Successfully processed: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:47:51,707 - __main__ - INFO - Processing file 18/32: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:47:51,707 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:47:51,707 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_27_Bio_12_12-12-24_annotated_flashcards.txt
+2025-06-06 21:47:51,707 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:51,707 - __main__ - INFO - Processing attempt 1 for Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:47:51,708 - __main__ - INFO - Uploading file to Gemini: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:47:53,235 - __main__ - INFO - File uploaded successfully: files/wuwqvbnhk3rg
+2025-06-06 21:47:53,236 - __main__ - INFO - Generating flashcards for Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:47:57,920 - __main__ - INFO - Flashcards generated successfully for Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:47:57,921 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_27_Bio_12_12-12-24_annotated_flashcards.txt
+2025-06-06 21:47:58,426 - __main__ - INFO - ✅ Successfully processed: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:47:58,426 - __main__ - INFO - Processing file 19/32: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:47:58,426 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:47:58,427 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_28_Bio_12_17-12-24_annotated_flashcards.txt
+2025-06-06 21:47:58,427 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:47:58,427 - __main__ - INFO - Processing attempt 1 for Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:47:58,428 - __main__ - INFO - Uploading file to Gemini: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:47:59,654 - __main__ - INFO - File uploaded successfully: files/ndvh0je9890y
+2025-06-06 21:47:59,655 - __main__ - INFO - Generating flashcards for Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:48:03,325 - __main__ - INFO - Flashcards generated successfully for Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:48:03,327 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_28_Bio_12_17-12-24_annotated_flashcards.txt
+2025-06-06 21:48:03,831 - __main__ - INFO - ✅ Successfully processed: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:48:03,831 - __main__ - INFO - Processing file 20/32: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:48:03,832 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:48:03,832 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_30_Bio_12_9-1-25_annotated_flashcards.txt
+2025-06-06 21:48:03,832 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:03,832 - __main__ - INFO - Processing attempt 1 for Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:48:03,833 - __main__ - INFO - Uploading file to Gemini: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:48:05,089 - __main__ - INFO - File uploaded successfully: files/47wttapb4zix
+2025-06-06 21:48:05,089 - __main__ - INFO - Generating flashcards for Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:48:08,062 - __main__ - INFO - Flashcards generated successfully for Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:48:08,064 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_30_Bio_12_9-1-25_annotated_flashcards.txt
+2025-06-06 21:48:08,568 - __main__ - INFO - ✅ Successfully processed: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:48:08,569 - __main__ - INFO - Processing file 21/32: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:48:08,570 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:48:08,571 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_31_Bio_12_14-1-25_annotatedd_flashcards.txt
+2025-06-06 21:48:08,571 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:08,572 - __main__ - INFO - Processing attempt 1 for Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:48:08,572 - __main__ - INFO - Uploading file to Gemini: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:48:10,484 - __main__ - INFO - File uploaded successfully: files/g7n5fogtqwdu
+2025-06-06 21:48:10,485 - __main__ - INFO - Generating flashcards for Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:48:14,805 - __main__ - INFO - Flashcards generated successfully for Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:48:14,808 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_31_Bio_12_14-1-25_annotatedd_flashcards.txt
+2025-06-06 21:48:15,312 - __main__ - INFO - ✅ Successfully processed: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:48:15,312 - __main__ - INFO - Processing file 22/32: Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:48:15,312 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:48:15,313 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_32_Bio_12_16-1-25_annotated_flashcards.txt
+2025-06-06 21:48:15,313 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:15,313 - __main__ - INFO - Processing attempt 1 for Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:48:15,313 - __main__ - INFO - Uploading file to Gemini: Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:48:16,578 - __main__ - INFO - File uploaded successfully: files/3hlukc7i8mgg
+2025-06-06 21:48:16,578 - __main__ - INFO - Generating flashcards for Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:48:21,051 - __main__ - INFO - Flashcards generated successfully for Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:48:21,053 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_32_Bio_12_16-1-25_annotated_flashcards.txt
+2025-06-06 21:48:21,557 - __main__ - INFO - ✅ Successfully processed: Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:48:21,558 - __main__ - INFO - Processing file 23/32: Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:48:21,558 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:48:21,558 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_33_Bio_12_21-1-25_annotated_flashcards.txt
+2025-06-06 21:48:21,559 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:21,559 - __main__ - INFO - Processing attempt 1 for Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:48:21,559 - __main__ - INFO - Uploading file to Gemini: Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:48:22,875 - __main__ - INFO - File uploaded successfully: files/qm16wtef5sj2
+2025-06-06 21:48:22,875 - __main__ - INFO - Generating flashcards for Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:48:26,391 - __main__ - INFO - Flashcards generated successfully for Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:48:26,392 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_33_Bio_12_21-1-25_annotated_flashcards.txt
+2025-06-06 21:48:26,897 - __main__ - INFO - ✅ Successfully processed: Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:48:26,897 - __main__ - INFO - Processing file 24/32: Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:48:26,898 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:48:26,898 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_34_Bio_12_23-1-25_annotated_flashcards.txt
+2025-06-06 21:48:26,899 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:26,899 - __main__ - INFO - Processing attempt 1 for Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:48:26,899 - __main__ - INFO - Uploading file to Gemini: Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:48:28,340 - __main__ - INFO - File uploaded successfully: files/x1zj3zeuh2qe
+2025-06-06 21:48:28,340 - __main__ - INFO - Generating flashcards for Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:48:32,113 - __main__ - INFO - Flashcards generated successfully for Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:48:32,118 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_34_Bio_12_23-1-25_annotated_flashcards.txt
+2025-06-06 21:48:32,622 - __main__ - INFO - ✅ Successfully processed: Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:48:32,623 - __main__ - INFO - Processing file 25/32: Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:48:32,624 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:48:32,625 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_35_Bio_12_28-1-25_annotated_flashcards.txt
+2025-06-06 21:48:32,626 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:32,628 - __main__ - INFO - Processing attempt 1 for Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:48:32,629 - __main__ - INFO - Uploading file to Gemini: Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:48:34,374 - __main__ - INFO - File uploaded successfully: files/g52rg185oe7e
+2025-06-06 21:48:34,375 - __main__ - INFO - Generating flashcards for Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:48:37,920 - __main__ - INFO - Flashcards generated successfully for Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:48:37,926 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_35_Bio_12_28-1-25_annotated_flashcards.txt
+2025-06-06 21:48:38,433 - __main__ - INFO - ✅ Successfully processed: Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:48:38,433 - __main__ - INFO - Processing file 26/32: Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:48:38,434 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:48:38,435 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_39_Bio_12_11-2-25_annotated_flashcards.txt
+2025-06-06 21:48:38,436 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:38,437 - __main__ - INFO - Processing attempt 1 for Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:48:38,437 - __main__ - INFO - Uploading file to Gemini: Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:48:39,712 - __main__ - INFO - File uploaded successfully: files/thf5hwgu68yv
+2025-06-06 21:48:39,712 - __main__ - INFO - Generating flashcards for Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:48:44,044 - __main__ - INFO - Flashcards generated successfully for Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:48:44,048 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_39_Bio_12_11-2-25_annotated_flashcards.txt
+2025-06-06 21:48:44,553 - __main__ - INFO - ✅ Successfully processed: Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:48:44,554 - __main__ - INFO - Processing file 27/32: Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:44,554 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:44,555 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_42_Bio_12_4-3-25_annotated_flashcards.txt
+2025-06-06 21:48:44,555 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:44,556 - __main__ - INFO - Processing attempt 1 for Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:44,557 - __main__ - INFO - Uploading file to Gemini: Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:45,664 - __main__ - INFO - File uploaded successfully: files/u0zwzn0hhg90
+2025-06-06 21:48:45,664 - __main__ - INFO - Generating flashcards for Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:49,066 - __main__ - INFO - Flashcards generated successfully for Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:49,070 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_42_Bio_12_4-3-25_annotated_flashcards.txt
+2025-06-06 21:48:49,573 - __main__ - INFO - ✅ Successfully processed: Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:49,574 - __main__ - INFO - Processing file 28/32: Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:49,575 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:49,576 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_43_Bio_12_4-3-25_annotated_flashcards.txt
+2025-06-06 21:48:49,578 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:49,578 - __main__ - INFO - Processing attempt 1 for Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:49,581 - __main__ - INFO - Uploading file to Gemini: Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:51,396 - __main__ - INFO - File uploaded successfully: files/9rfomg3rsk6x
+2025-06-06 21:48:51,397 - __main__ - INFO - Generating flashcards for Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:54,842 - __main__ - INFO - Flashcards generated successfully for Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:54,844 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_43_Bio_12_4-3-25_annotated_flashcards.txt
+2025-06-06 21:48:55,348 - __main__ - INFO - ✅ Successfully processed: Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:48:55,349 - __main__ - INFO - Processing file 29/32: Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:48:55,349 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:48:55,350 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_44_Bio_12_25-3-25_annotated_flashcards.txt
+2025-06-06 21:48:55,350 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:48:55,351 - __main__ - INFO - Processing attempt 1 for Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:48:55,351 - __main__ - INFO - Uploading file to Gemini: Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:48:56,610 - __main__ - INFO - File uploaded successfully: files/j12g2l04o2eq
+2025-06-06 21:48:56,611 - __main__ - INFO - Generating flashcards for Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:48:59,758 - __main__ - INFO - Flashcards generated successfully for Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:48:59,760 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_44_Bio_12_25-3-25_annotated_flashcards.txt
+2025-06-06 21:49:00,264 - __main__ - INFO - ✅ Successfully processed: Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:49:00,265 - __main__ - INFO - Processing file 30/32: Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:49:00,265 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:49:00,265 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_46_Bio_12_1-4-25_annotated_flashcards.txt
+2025-06-06 21:49:00,266 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:49:00,266 - __main__ - INFO - Processing attempt 1 for Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:49:00,266 - __main__ - INFO - Uploading file to Gemini: Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:49:01,538 - __main__ - INFO - File uploaded successfully: files/nl67gurm3nzy
+2025-06-06 21:49:01,538 - __main__ - INFO - Generating flashcards for Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:49:05,794 - __main__ - INFO - Flashcards generated successfully for Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:49:05,797 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_46_Bio_12_1-4-25_annotated_flashcards.txt
+2025-06-06 21:49:06,302 - __main__ - INFO - ✅ Successfully processed: Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:49:06,302 - __main__ - INFO - Processing file 31/32: Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:49:06,302 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:49:06,303 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_49_Bio_12_10-4-25_annotated_flashcards.txt
+2025-06-06 21:49:06,304 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:49:06,304 - __main__ - INFO - Processing attempt 1 for Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:49:06,304 - __main__ - INFO - Uploading file to Gemini: Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:49:07,567 - __main__ - INFO - File uploaded successfully: files/bjordglq6j7i
+2025-06-06 21:49:07,567 - __main__ - INFO - Generating flashcards for Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:49:10,715 - __main__ - INFO - Flashcards generated successfully for Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:49:10,716 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_49_Bio_12_10-4-25_annotated_flashcards.txt
+2025-06-06 21:49:11,221 - __main__ - INFO - ✅ Successfully processed: Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:49:11,221 - __main__ - INFO - Processing file 32/32: Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:49:11,221 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/input/Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:49:11,221 - __main__ - INFO - Output file will be: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_52_Bio_12_22-4-25_annotated_flashcards.txt
+2025-06-06 21:49:11,222 - __main__ - INFO - Using prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:49:11,222 - __main__ - INFO - Processing attempt 1 for Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:49:11,222 - __main__ - INFO - Uploading file to Gemini: Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:49:12,410 - __main__ - INFO - File uploaded successfully: files/i6sflvuyepqh
+2025-06-06 21:49:12,410 - __main__ - INFO - Generating flashcards for Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:49:16,141 - __main__ - INFO - Flashcards generated successfully for Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:49:16,143 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmp1ctpb988/output/Lesson_52_Bio_12_22-4-25_annotated_flashcards.txt
+2025-06-06 21:49:16,647 - __main__ - INFO - ✅ Successfully processed: Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:49:16,647 - __main__ - INFO - === Processing complete: 32/32 files successful ===
+2025-06-06 21:49:16,691 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:49:16] "POST /process_files HTTP/1.1" 200 -
+2025-06-06 21:52:51,973 - werkzeug - INFO -  * Detected change in '/Users/julianmoncarz/flashcard_flashcard_generator/app.py', reloading
+2025-06-06 21:52:54,408 - werkzeug - INFO -  * Restarting with stat
+2025-06-06 21:52:56,619 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:52:56,619 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:52:56,696 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 21:52:56,716 - werkzeug - INFO -  * Debugger PIN: 144-029-226
+2025-06-06 21:54:05,377 - werkzeug - INFO -  * Detected change in '/Users/julianmoncarz/flashcard_flashcard_generator/app.py', reloading
+2025-06-06 21:54:05,657 - werkzeug - INFO -  * Restarting with stat
+2025-06-06 21:54:07,848 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:54:07,848 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:54:07,919 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 21:54:07,943 - werkzeug - INFO -  * Debugger PIN: 144-029-226
+2025-06-06 21:54:25,408 - werkzeug - INFO -  * Detected change in '/Users/julianmoncarz/flashcard_flashcard_generator/app.py', reloading
+2025-06-06 21:54:25,598 - werkzeug - INFO -  * Restarting with stat
+2025-06-06 21:54:27,220 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:54:27,220 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:54:27,297 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 21:54:27,313 - werkzeug - INFO -  * Debugger PIN: 144-029-226
+2025-06-06 21:54:56,309 - __main__ - INFO - === Starting file processing request ===
+2025-06-06 21:54:56,723 - __main__ - INFO - Received 32 files
+2025-06-06 21:54:56,723 - __main__ - INFO - Custom prompt provided: Yes
+2025-06-06 21:54:56,723 - __main__ - INFO - Custom prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:54:56,723 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:54:56,724 - __main__ - INFO - Valid files to process: ['Lesson 8 Bio 12  3-10-24 annotated.pdf', 'Lesson 10 Bio 12  10-10-24 annotated.pdf', 'Lesson 11 Bio 12 SBI4U 15-10-24 annotated.pdf', 'Lesson 12 Bio 12 SBI4U 17-10-24 annotated.pdf', 'Lesson 13 Bio 12 SBI4U 22-10-24 annotated.pdf', 'Lesson 14 Bio 12 SBI4U 24-10-24 annotated.pdf', 'Lesson 15 Bio 12 29-10-24 annotated.pdf', 'Lesson 16 Bio 12 31-10-24 annotated.pdf', 'Lesson 17 Bio 12 5-11-24 annotated.pdf', 'Lesson 18 Bio 12 12-11-24 annotated.pdf', 'Lesson 19 Bio 12 14-11-24 annotated.pdf', 'Lesson 20 Bio 12 19-11-24 annotated.pdf', 'Lesson 21 Bio 12 21-11-24 annotated.pdf', 'Lesson 22 Bio 12 27-11-24 annotated.pdf', 'Lesson 24 Bio 12 3-12-24 annotated.pdf', 'Lesson 25 Bio 12 5-12-24 annotated.pdf', 'Lesson 26 Bio 12 10-12-24 annotated.pdf', 'Lesson 27 Bio 12 12-12-24 annotated.pdf', 'Lesson 28 Bio 12 17-12-24 annotated.pdf', 'Lesson 30 Bio 12 9-1-25 annotated.pdf', 'Lesson 31 Bio 12 14-1-25 annotatedd.pdf', 'Lesson 32 Bio 12 16-1-25 annotated.pdf', 'Lesson 33 Bio 12 21-1-25 annotated.pdf', 'Lesson 34 Bio 12 23-1-25 annotated.pdf', 'Lesson 35 Bio 12 28-1-25 annotated.pdf', 'Lesson 39 Bio 12 11-2-25 annotated.pdf', 'Lesson 42 Bio 12 4-3-25 annotated.pdf', 'Lesson 43 Bio 12 4-3-25 annotated.pdf', 'Lesson 44 Bio 12 25-3-25 annotated.pdf', 'Lesson 46 Bio 12 1-4-25 annotated.pdf', 'Lesson 49 Bio 12 10-4-25 annotated.pdf', 'Lesson 52 Bio 12 22-4-25 annotated.pdf']
+2025-06-06 21:54:56,725 - __main__ - INFO - Created temporary directories: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input, /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output
+2025-06-06 21:54:56,737 - __main__ - INFO - Saved file: Lesson_8_Bio_12_3-10-24_annotated.pdf (4484265 bytes)
+2025-06-06 21:54:56,744 - __main__ - INFO - Saved file: Lesson_10_Bio_12_10-10-24_annotated.pdf (2391639 bytes)
+2025-06-06 21:54:56,756 - __main__ - INFO - Saved file: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf (4506440 bytes)
+2025-06-06 21:54:56,762 - __main__ - INFO - Saved file: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf (2040397 bytes)
+2025-06-06 21:54:56,767 - __main__ - INFO - Saved file: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf (1579430 bytes)
+2025-06-06 21:54:56,787 - __main__ - INFO - Saved file: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf (2718096 bytes)
+2025-06-06 21:54:56,833 - __main__ - INFO - Saved file: Lesson_15_Bio_12_29-10-24_annotated.pdf (3084468 bytes)
+2025-06-06 21:54:56,843 - __main__ - INFO - Saved file: Lesson_16_Bio_12_31-10-24_annotated.pdf (2944185 bytes)
+2025-06-06 21:54:56,849 - __main__ - INFO - Saved file: Lesson_17_Bio_12_5-11-24_annotated.pdf (882008 bytes)
+2025-06-06 21:54:56,861 - __main__ - INFO - Saved file: Lesson_18_Bio_12_12-11-24_annotated.pdf (3646827 bytes)
+2025-06-06 21:54:56,869 - __main__ - INFO - Saved file: Lesson_19_Bio_12_14-11-24_annotated.pdf (2812745 bytes)
+2025-06-06 21:54:56,877 - __main__ - INFO - Saved file: Lesson_20_Bio_12_19-11-24_annotated.pdf (1940866 bytes)
+2025-06-06 21:54:56,882 - __main__ - INFO - Saved file: Lesson_21_Bio_12_21-11-24_annotated.pdf (1476583 bytes)
+2025-06-06 21:54:56,893 - __main__ - INFO - Saved file: Lesson_22_Bio_12_27-11-24_annotated.pdf (3392658 bytes)
+2025-06-06 21:54:56,905 - __main__ - INFO - Saved file: Lesson_24_Bio_12_3-12-24_annotated.pdf (4284477 bytes)
+2025-06-06 21:54:56,917 - __main__ - INFO - Saved file: Lesson_25_Bio_12_5-12-24_annotated.pdf (3678304 bytes)
+2025-06-06 21:54:56,935 - __main__ - INFO - Saved file: Lesson_26_Bio_12_10-12-24_annotated.pdf (5377577 bytes)
+2025-06-06 21:54:56,951 - __main__ - INFO - Saved file: Lesson_27_Bio_12_12-12-24_annotated.pdf (5134098 bytes)
+2025-06-06 21:54:56,957 - __main__ - INFO - Saved file: Lesson_28_Bio_12_17-12-24_annotated.pdf (1424091 bytes)
+2025-06-06 21:54:56,962 - __main__ - INFO - Saved file: Lesson_30_Bio_12_9-1-25_annotated.pdf (1324969 bytes)
+2025-06-06 21:54:56,980 - __main__ - INFO - Saved file: Lesson_31_Bio_12_14-1-25_annotatedd.pdf (5317012 bytes)
+2025-06-06 21:54:57,001 - __main__ - INFO - Saved file: Lesson_32_Bio_12_16-1-25_annotated.pdf (5054783 bytes)
+2025-06-06 21:54:57,010 - __main__ - INFO - Saved file: Lesson_33_Bio_12_21-1-25_annotated.pdf (2222800 bytes)
+2025-06-06 21:54:57,016 - __main__ - INFO - Saved file: Lesson_34_Bio_12_23-1-25_annotated.pdf (1129599 bytes)
+2025-06-06 21:54:57,029 - __main__ - INFO - Saved file: Lesson_35_Bio_12_28-1-25_annotated.pdf (3382442 bytes)
+2025-06-06 21:54:57,052 - __main__ - INFO - Saved file: Lesson_39_Bio_12_11-2-25_annotated.pdf (3770378 bytes)
+2025-06-06 21:54:57,077 - __main__ - INFO - Saved file: Lesson_42_Bio_12_4-3-25_annotated.pdf (3071327 bytes)
+2025-06-06 21:54:57,099 - __main__ - INFO - Saved file: Lesson_43_Bio_12_4-3-25_annotated.pdf (4619175 bytes)
+2025-06-06 21:54:57,120 - __main__ - INFO - Saved file: Lesson_44_Bio_12_25-3-25_annotated.pdf (2879764 bytes)
+2025-06-06 21:54:57,170 - __main__ - INFO - Saved file: Lesson_46_Bio_12_1-4-25_annotated.pdf (5427329 bytes)
+2025-06-06 21:54:57,212 - __main__ - INFO - Saved file: Lesson_49_Bio_12_10-4-25_annotated.pdf (2079596 bytes)
+2025-06-06 21:54:57,227 - __main__ - INFO - Saved file: Lesson_52_Bio_12_22-4-25_annotated.pdf (3027547 bytes)
+2025-06-06 21:54:57,227 - __main__ - INFO - Starting parallel processing with 5 workers for 32 files
+2025-06-06 21:54:57,235 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:54:57,235 - __main__ - INFO - Submitted Lesson_8_Bio_12_3-10-24_annotated.pdf for processing
+2025-06-06 21:54:57,236 - __main__ - INFO - Using custom prompt for Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:54:57,236 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:54:57,237 - __main__ - INFO - Processing attempt 1/3: Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:54:57,237 - __main__ - INFO - Submitted Lesson_10_Bio_12_10-10-24_annotated.pdf for processing
+2025-06-06 21:54:57,237 - __main__ - INFO - Using custom prompt for Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:54:57,241 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:54:57,241 - __main__ - INFO - Submitted Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf for processing
+2025-06-06 21:54:57,242 - __main__ - INFO - Processing attempt 1/3: Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:54:57,242 - __main__ - INFO - Using custom prompt for Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:54:57,243 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:54:57,243 - __main__ - INFO - Processing attempt 1/3: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:54:57,243 - __main__ - INFO - Submitted Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf for processing
+2025-06-06 21:54:57,244 - __main__ - INFO - Using custom prompt for Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:54:57,246 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:54:57,246 - __main__ - INFO - Processing attempt 1/3: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:54:57,247 - __main__ - INFO - Submitted Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf for processing
+2025-06-06 21:54:57,247 - __main__ - INFO - Using custom prompt for Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:54:57,248 - __main__ - INFO - Submitted Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf for processing
+2025-06-06 21:54:57,250 - __main__ - INFO - Processing attempt 1/3: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:54:57,251 - __main__ - INFO - Submitted Lesson_15_Bio_12_29-10-24_annotated.pdf for processing
+2025-06-06 21:54:57,252 - __main__ - INFO - Submitted Lesson_16_Bio_12_31-10-24_annotated.pdf for processing
+2025-06-06 21:54:57,252 - __main__ - INFO - Submitted Lesson_17_Bio_12_5-11-24_annotated.pdf for processing
+2025-06-06 21:54:57,253 - __main__ - INFO - Submitted Lesson_18_Bio_12_12-11-24_annotated.pdf for processing
+2025-06-06 21:54:57,253 - __main__ - INFO - Submitted Lesson_19_Bio_12_14-11-24_annotated.pdf for processing
+2025-06-06 21:54:57,253 - __main__ - INFO - Submitted Lesson_20_Bio_12_19-11-24_annotated.pdf for processing
+2025-06-06 21:54:57,258 - __main__ - INFO - Submitted Lesson_21_Bio_12_21-11-24_annotated.pdf for processing
+2025-06-06 21:54:57,258 - __main__ - INFO - Submitted Lesson_22_Bio_12_27-11-24_annotated.pdf for processing
+2025-06-06 21:54:57,258 - __main__ - INFO - Submitted Lesson_24_Bio_12_3-12-24_annotated.pdf for processing
+2025-06-06 21:54:57,259 - __main__ - INFO - Submitted Lesson_25_Bio_12_5-12-24_annotated.pdf for processing
+2025-06-06 21:54:57,259 - __main__ - INFO - Submitted Lesson_26_Bio_12_10-12-24_annotated.pdf for processing
+2025-06-06 21:54:57,259 - __main__ - INFO - Submitted Lesson_27_Bio_12_12-12-24_annotated.pdf for processing
+2025-06-06 21:54:57,259 - __main__ - INFO - Submitted Lesson_28_Bio_12_17-12-24_annotated.pdf for processing
+2025-06-06 21:54:57,260 - __main__ - INFO - Submitted Lesson_30_Bio_12_9-1-25_annotated.pdf for processing
+2025-06-06 21:54:57,260 - __main__ - INFO - Submitted Lesson_31_Bio_12_14-1-25_annotatedd.pdf for processing
+2025-06-06 21:54:57,260 - __main__ - INFO - Submitted Lesson_32_Bio_12_16-1-25_annotated.pdf for processing
+2025-06-06 21:54:57,260 - __main__ - INFO - Submitted Lesson_33_Bio_12_21-1-25_annotated.pdf for processing
+2025-06-06 21:54:57,260 - __main__ - INFO - Submitted Lesson_34_Bio_12_23-1-25_annotated.pdf for processing
+2025-06-06 21:54:57,260 - __main__ - INFO - Submitted Lesson_35_Bio_12_28-1-25_annotated.pdf for processing
+2025-06-06 21:54:57,260 - __main__ - INFO - Submitted Lesson_39_Bio_12_11-2-25_annotated.pdf for processing
+2025-06-06 21:54:57,260 - __main__ - INFO - Submitted Lesson_42_Bio_12_4-3-25_annotated.pdf for processing
+2025-06-06 21:54:57,261 - __main__ - INFO - Submitted Lesson_43_Bio_12_4-3-25_annotated.pdf for processing
+2025-06-06 21:54:57,261 - __main__ - INFO - Submitted Lesson_44_Bio_12_25-3-25_annotated.pdf for processing
+2025-06-06 21:54:57,261 - __main__ - INFO - Submitted Lesson_46_Bio_12_1-4-25_annotated.pdf for processing
+2025-06-06 21:54:57,261 - __main__ - INFO - Submitted Lesson_49_Bio_12_10-4-25_annotated.pdf for processing
+2025-06-06 21:54:57,261 - __main__ - INFO - Submitted Lesson_52_Bio_12_22-4-25_annotated.pdf for processing
+2025-06-06 21:54:58,600 - __main__ - INFO - File uploaded to Gemini: Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:54:58,761 - __main__ - INFO - File uploaded to Gemini: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:54:58,829 - __main__ - INFO - File uploaded to Gemini: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:54:58,869 - __main__ - INFO - File uploaded to Gemini: Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:54:59,243 - __main__ - INFO - File uploaded to Gemini: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:55:01,515 - __main__ - INFO - AI response received for: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:55:01,516 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_13_Bio_12_SBI4U_22-10-24_annotated_flashcards.txt
+2025-06-06 21:55:01,575 - __main__ - INFO - AI response received for: Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:55:01,576 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_10_Bio_12_10-10-24_annotated_flashcards.txt
+2025-06-06 21:55:02,021 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:55:02,022 - __main__ - INFO - Completed 1/32: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:55:02,022 - __main__ - INFO - Using custom prompt for Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:55:02,023 - __main__ - INFO - ✅ Successfully processed: Lesson_13_Bio_12_SBI4U_22-10-24_annotated.pdf
+2025-06-06 21:55:02,023 - __main__ - INFO - Processing attempt 1/3: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:55:02,080 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:55:02,081 - __main__ - INFO - Completed 2/32: Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:55:02,081 - __main__ - INFO - Using custom prompt for Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:55:02,081 - __main__ - INFO - ✅ Successfully processed: Lesson_10_Bio_12_10-10-24_annotated.pdf
+2025-06-06 21:55:02,082 - __main__ - INFO - Processing attempt 1/3: Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:55:02,302 - __main__ - INFO - AI response received for: Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:55:02,303 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_8_Bio_12_3-10-24_annotated_flashcards.txt
+2025-06-06 21:55:02,420 - __main__ - INFO - AI response received for: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:55:02,422 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_12_Bio_12_SBI4U_17-10-24_annotated_flashcards.txt
+2025-06-06 21:55:02,807 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:55:02,807 - __main__ - INFO - Completed 3/32: Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:55:02,807 - __main__ - INFO - Using custom prompt for Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:55:02,808 - __main__ - INFO - ✅ Successfully processed: Lesson_8_Bio_12_3-10-24_annotated.pdf
+2025-06-06 21:55:02,808 - __main__ - INFO - Processing attempt 1/3: Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:55:02,926 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:55:02,926 - __main__ - INFO - Completed 4/32: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:55:02,926 - __main__ - INFO - Using custom prompt for Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:55:02,927 - __main__ - INFO - ✅ Successfully processed: Lesson_12_Bio_12_SBI4U_17-10-24_annotated.pdf
+2025-06-06 21:55:02,927 - __main__ - INFO - Processing attempt 1/3: Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:55:03,110 - __main__ - INFO - File uploaded to Gemini: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:55:03,318 - __main__ - INFO - File uploaded to Gemini: Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:55:03,869 - __main__ - INFO - AI response received for: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:55:03,872 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_11_Bio_12_SBI4U_15-10-24_annotated_flashcards.txt
+2025-06-06 21:55:04,200 - __main__ - INFO - File uploaded to Gemini: Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:55:04,376 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:55:04,376 - __main__ - INFO - Completed 5/32: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:55:04,377 - __main__ - INFO - Using custom prompt for Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:55:04,377 - __main__ - INFO - ✅ Successfully processed: Lesson_11_Bio_12_SBI4U_15-10-24_annotated.pdf
+2025-06-06 21:55:04,377 - __main__ - INFO - Processing attempt 1/3: Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:55:04,547 - __main__ - INFO - File uploaded to Gemini: Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:55:06,239 - __main__ - INFO - File uploaded to Gemini: Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:55:06,309 - __main__ - INFO - AI response received for: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:55:06,311 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_14_Bio_12_SBI4U_24-10-24_annotated_flashcards.txt
+2025-06-06 21:55:06,814 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:55:06,814 - __main__ - INFO - Completed 6/32: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:55:06,815 - __main__ - INFO - Using custom prompt for Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:55:06,815 - __main__ - INFO - ✅ Successfully processed: Lesson_14_Bio_12_SBI4U_24-10-24_annotated.pdf
+2025-06-06 21:55:06,816 - __main__ - INFO - Processing attempt 1/3: Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:55:07,291 - __main__ - INFO - AI response received for: Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:55:07,293 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_17_Bio_12_5-11-24_annotated_flashcards.txt
+2025-06-06 21:55:07,482 - __main__ - INFO - AI response received for: Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:55:07,483 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_15_Bio_12_29-10-24_annotated_flashcards.txt
+2025-06-06 21:55:07,798 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:55:07,799 - __main__ - INFO - Completed 7/32: Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:55:07,800 - __main__ - INFO - ✅ Successfully processed: Lesson_17_Bio_12_5-11-24_annotated.pdf
+2025-06-06 21:55:07,799 - __main__ - INFO - Using custom prompt for Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:55:07,801 - __main__ - INFO - Processing attempt 1/3: Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:55:07,982 - __main__ - INFO - AI response received for: Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:55:07,985 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_16_Bio_12_31-10-24_annotated_flashcards.txt
+2025-06-06 21:55:07,986 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:55:07,986 - __main__ - INFO - Completed 8/32: Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:55:07,986 - __main__ - INFO - Using custom prompt for Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:55:07,987 - __main__ - INFO - ✅ Successfully processed: Lesson_15_Bio_12_29-10-24_annotated.pdf
+2025-06-06 21:55:07,987 - __main__ - INFO - Processing attempt 1/3: Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:55:08,208 - __main__ - INFO - File uploaded to Gemini: Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:55:08,490 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:55:08,491 - __main__ - INFO - Completed 9/32: Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:55:08,492 - __main__ - INFO - Using custom prompt for Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:55:08,492 - __main__ - INFO - ✅ Successfully processed: Lesson_16_Bio_12_31-10-24_annotated.pdf
+2025-06-06 21:55:08,492 - __main__ - INFO - Processing attempt 1/3: Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:55:09,012 - __main__ - INFO - AI response received for: Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:55:09,014 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_18_Bio_12_12-11-24_annotated_flashcards.txt
+2025-06-06 21:55:09,351 - __main__ - INFO - File uploaded to Gemini: Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:55:09,520 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:55:09,521 - __main__ - INFO - Completed 10/32: Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:55:09,521 - __main__ - INFO - Using custom prompt for Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:55:09,521 - __main__ - INFO - ✅ Successfully processed: Lesson_18_Bio_12_12-11-24_annotated.pdf
+2025-06-06 21:55:09,522 - __main__ - INFO - Processing attempt 1/3: Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:55:09,679 - __main__ - INFO - File uploaded to Gemini: Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:55:09,926 - __main__ - INFO - File uploaded to Gemini: Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:55:10,986 - __main__ - INFO - AI response received for: Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:55:10,987 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_19_Bio_12_14-11-24_annotated_flashcards.txt
+2025-06-06 21:55:11,125 - __main__ - INFO - File uploaded to Gemini: Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:55:11,491 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:55:11,491 - __main__ - INFO - Completed 11/32: Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:55:11,492 - __main__ - INFO - Using custom prompt for Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:55:11,493 - __main__ - INFO - ✅ Successfully processed: Lesson_19_Bio_12_14-11-24_annotated.pdf
+2025-06-06 21:55:11,494 - __main__ - INFO - Processing attempt 1/3: Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:55:12,406 - __main__ - INFO - AI response received for: Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:55:12,408 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_20_Bio_12_19-11-24_annotated_flashcards.txt
+2025-06-06 21:55:12,424 - __main__ - INFO - AI response received for: Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:55:12,426 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_21_Bio_12_21-11-24_annotated_flashcards.txt
+2025-06-06 21:55:12,914 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:55:12,914 - __main__ - INFO - Completed 12/32: Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:55:12,914 - __main__ - INFO - Using custom prompt for Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:55:12,915 - __main__ - INFO - ✅ Successfully processed: Lesson_20_Bio_12_19-11-24_annotated.pdf
+2025-06-06 21:55:12,915 - __main__ - INFO - Processing attempt 1/3: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:55:12,930 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:55:12,931 - __main__ - INFO - Completed 13/32: Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:55:12,931 - __main__ - INFO - Using custom prompt for Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:55:12,931 - __main__ - INFO - ✅ Successfully processed: Lesson_21_Bio_12_21-11-24_annotated.pdf
+2025-06-06 21:55:12,931 - __main__ - INFO - Processing attempt 1/3: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:55:12,947 - __main__ - INFO - AI response received for: Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:55:12,948 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_22_Bio_12_27-11-24_annotated_flashcards.txt
+2025-06-06 21:55:13,022 - __main__ - INFO - File uploaded to Gemini: Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:55:13,453 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:55:13,453 - __main__ - INFO - Completed 14/32: Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:55:13,453 - __main__ - INFO - Using custom prompt for Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:55:13,453 - __main__ - INFO - ✅ Successfully processed: Lesson_22_Bio_12_27-11-24_annotated.pdf
+2025-06-06 21:55:13,454 - __main__ - INFO - Processing attempt 1/3: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:55:14,414 - __main__ - INFO - File uploaded to Gemini: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:55:14,624 - __main__ - INFO - File uploaded to Gemini: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:55:14,694 - __main__ - ERROR - ❌ Error processing Lesson_26_Bio_12_10-12-24_annotated.pdf (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-06-06 21:55:14,695 - __main__ - WARNING - Rate limit hit for Lesson_26_Bio_12_10-12-24_annotated.pdf, waiting 45s before retry...
+2025-06-06 21:55:14,892 - __main__ - ERROR - ❌ Error processing Lesson_27_Bio_12_12-12-24_annotated.pdf (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-06-06 21:55:14,892 - __main__ - WARNING - Rate limit hit for Lesson_27_Bio_12_12-12-24_annotated.pdf, waiting 45s before retry...
+2025-06-06 21:55:15,252 - __main__ - INFO - File uploaded to Gemini: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:55:15,476 - __main__ - ERROR - ❌ Error processing Lesson_28_Bio_12_17-12-24_annotated.pdf (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 44
+}
+]
+2025-06-06 21:55:15,476 - __main__ - WARNING - Rate limit hit for Lesson_28_Bio_12_17-12-24_annotated.pdf, waiting 44s before retry...
+2025-06-06 21:55:15,500 - __main__ - INFO - AI response received for: Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:55:15,503 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_24_Bio_12_3-12-24_annotated_flashcards.txt
+2025-06-06 21:55:16,005 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:55:16,006 - __main__ - INFO - Completed 15/32: Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:55:16,006 - __main__ - INFO - Using custom prompt for Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:55:16,007 - __main__ - INFO - ✅ Successfully processed: Lesson_24_Bio_12_3-12-24_annotated.pdf
+2025-06-06 21:55:16,007 - __main__ - INFO - Processing attempt 1/3: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:55:16,874 - __main__ - INFO - AI response received for: Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:55:16,876 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_25_Bio_12_5-12-24_annotated_flashcards.txt
+2025-06-06 21:55:17,378 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:55:17,378 - __main__ - INFO - Completed 16/32: Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:55:17,380 - __main__ - INFO - Using custom prompt for Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:55:17,380 - __main__ - INFO - ✅ Successfully processed: Lesson_25_Bio_12_5-12-24_annotated.pdf
+2025-06-06 21:55:17,381 - __main__ - INFO - Processing attempt 1/3: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:55:17,815 - __main__ - INFO - File uploaded to Gemini: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:55:18,021 - __main__ - ERROR - ❌ Error processing Lesson_30_Bio_12_9-1-25_annotated.pdf (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-06-06 21:55:18,021 - __main__ - WARNING - Rate limit hit for Lesson_30_Bio_12_9-1-25_annotated.pdf, waiting 41s before retry...
+2025-06-06 21:55:19,073 - __main__ - INFO - File uploaded to Gemini: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:55:19,287 - __main__ - ERROR - ❌ Error processing Lesson_31_Bio_12_14-1-25_annotatedd.pdf (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-06-06 21:55:19,287 - __main__ - WARNING - Rate limit hit for Lesson_31_Bio_12_14-1-25_annotatedd.pdf, waiting 40s before retry...
+2025-06-06 21:55:27,699 - root - INFO - 📄 Serving main web interface
+2025-06-06 21:55:27,713 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:55:27] "GET / HTTP/1.1" 200 -
+2025-06-06 21:55:27,886 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:55:27] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-06 21:55:27,892 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:55:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-06-06 21:55:59,025 - __main__ - INFO - Processing attempt 2/3: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:55:59,295 - __main__ - INFO - Processing attempt 2/3: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:55:59,480 - __main__ - INFO - Processing attempt 2/3: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:55:59,699 - __main__ - INFO - Processing attempt 2/3: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:55:59,897 - __main__ - INFO - Processing attempt 2/3: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:56:00,431 - __main__ - INFO - File uploaded to Gemini: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:56:00,594 - __main__ - INFO - File uploaded to Gemini: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:56:00,654 - __main__ - INFO - File uploaded to Gemini: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:56:01,146 - __main__ - INFO - File uploaded to Gemini: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:56:01,263 - __main__ - INFO - File uploaded to Gemini: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:56:03,006 - __main__ - INFO - AI response received for: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:56:03,008 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_30_Bio_12_9-1-25_annotated_flashcards.txt
+2025-06-06 21:56:03,311 - __main__ - INFO - AI response received for: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:56:03,313 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_28_Bio_12_17-12-24_annotated_flashcards.txt
+2025-06-06 21:56:03,513 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:56:03,514 - __main__ - INFO - Completed 17/32: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:56:03,514 - __main__ - INFO - Using custom prompt for Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:56:03,515 - __main__ - INFO - ✅ Successfully processed: Lesson_30_Bio_12_9-1-25_annotated.pdf
+2025-06-06 21:56:03,516 - __main__ - INFO - Processing attempt 1/3: Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:56:03,816 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:56:03,816 - __main__ - INFO - Completed 18/32: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:56:03,817 - __main__ - INFO - Using custom prompt for Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:56:03,818 - __main__ - INFO - ✅ Successfully processed: Lesson_28_Bio_12_17-12-24_annotated.pdf
+2025-06-06 21:56:03,818 - __main__ - INFO - Processing attempt 1/3: Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:56:05,120 - __main__ - INFO - AI response received for: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:56:05,121 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_27_Bio_12_12-12-24_annotated_flashcards.txt
+2025-06-06 21:56:05,203 - __main__ - INFO - File uploaded to Gemini: Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:56:05,237 - __main__ - INFO - AI response received for: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:56:05,238 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_31_Bio_12_14-1-25_annotatedd_flashcards.txt
+2025-06-06 21:56:05,289 - __main__ - INFO - File uploaded to Gemini: Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:56:05,355 - __main__ - INFO - AI response received for: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:56:05,357 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_26_Bio_12_10-12-24_annotated_flashcards.txt
+2025-06-06 21:56:05,625 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:56:05,626 - __main__ - INFO - Completed 19/32: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:56:05,627 - __main__ - INFO - Using custom prompt for Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:56:05,628 - __main__ - INFO - ✅ Successfully processed: Lesson_27_Bio_12_12-12-24_annotated.pdf
+2025-06-06 21:56:05,628 - __main__ - INFO - Processing attempt 1/3: Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:56:05,741 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:56:05,741 - __main__ - INFO - Completed 20/32: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:56:05,742 - __main__ - INFO - Using custom prompt for Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:56:05,742 - __main__ - INFO - ✅ Successfully processed: Lesson_31_Bio_12_14-1-25_annotatedd.pdf
+2025-06-06 21:56:05,743 - __main__ - INFO - Processing attempt 1/3: Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:56:05,862 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:56:05,862 - __main__ - INFO - Completed 21/32: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:56:05,863 - __main__ - INFO - Using custom prompt for Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:56:05,863 - __main__ - INFO - ✅ Successfully processed: Lesson_26_Bio_12_10-12-24_annotated.pdf
+2025-06-06 21:56:05,863 - __main__ - INFO - Processing attempt 1/3: Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:56:06,855 - __main__ - INFO - File uploaded to Gemini: Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:56:07,166 - __main__ - INFO - File uploaded to Gemini: Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:56:07,326 - __main__ - INFO - File uploaded to Gemini: Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:56:08,123 - __main__ - INFO - AI response received for: Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:56:08,125 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_33_Bio_12_21-1-25_annotated_flashcards.txt
+2025-06-06 21:56:08,629 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:08,629 - __main__ - INFO - Completed 22/32: Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:56:08,630 - __main__ - INFO - Using custom prompt for Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:08,631 - __main__ - INFO - ✅ Successfully processed: Lesson_33_Bio_12_21-1-25_annotated.pdf
+2025-06-06 21:56:08,631 - __main__ - INFO - Processing attempt 1/3: Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:09,157 - __main__ - INFO - AI response received for: Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:56:09,159 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_32_Bio_12_16-1-25_annotated_flashcards.txt
+2025-06-06 21:56:09,663 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:09,664 - __main__ - INFO - Completed 23/32: Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:56:09,664 - __main__ - INFO - Using custom prompt for Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:09,665 - __main__ - INFO - ✅ Successfully processed: Lesson_32_Bio_12_16-1-25_annotated.pdf
+2025-06-06 21:56:09,666 - __main__ - INFO - Processing attempt 1/3: Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:10,052 - __main__ - INFO - File uploaded to Gemini: Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:10,375 - __main__ - INFO - AI response received for: Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:56:10,378 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_35_Bio_12_28-1-25_annotated_flashcards.txt
+2025-06-06 21:56:10,621 - __main__ - INFO - AI response received for: Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:56:10,624 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_34_Bio_12_23-1-25_annotated_flashcards.txt
+2025-06-06 21:56:10,883 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:56:10,884 - __main__ - INFO - Completed 24/32: Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:56:10,884 - __main__ - INFO - Using custom prompt for Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:56:10,884 - __main__ - INFO - ✅ Successfully processed: Lesson_35_Bio_12_28-1-25_annotated.pdf
+2025-06-06 21:56:10,885 - __main__ - INFO - Processing attempt 1/3: Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:56:10,912 - __main__ - INFO - AI response received for: Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:56:10,913 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_39_Bio_12_11-2-25_annotated_flashcards.txt
+2025-06-06 21:56:11,129 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:56:11,129 - __main__ - INFO - Completed 25/32: Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:56:11,130 - __main__ - INFO - Using custom prompt for Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:56:11,130 - __main__ - INFO - ✅ Successfully processed: Lesson_34_Bio_12_23-1-25_annotated.pdf
+2025-06-06 21:56:11,131 - __main__ - INFO - Processing attempt 1/3: Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:56:11,178 - __main__ - INFO - File uploaded to Gemini: Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:11,418 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:56:11,418 - __main__ - INFO - Completed 26/32: Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:56:11,419 - __main__ - INFO - Using custom prompt for Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:56:11,419 - __main__ - INFO - ✅ Successfully processed: Lesson_39_Bio_12_11-2-25_annotated.pdf
+2025-06-06 21:56:11,419 - __main__ - INFO - Processing attempt 1/3: Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:56:12,383 - __main__ - INFO - File uploaded to Gemini: Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:56:12,606 - __main__ - INFO - File uploaded to Gemini: Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:56:12,919 - __main__ - INFO - File uploaded to Gemini: Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:56:13,469 - __main__ - INFO - AI response received for: Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:13,472 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_42_Bio_12_4-3-25_annotated_flashcards.txt
+2025-06-06 21:56:13,976 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/input/Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:56:13,976 - __main__ - INFO - Completed 27/32: Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:13,977 - __main__ - INFO - Using custom prompt for Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:56:13,977 - __main__ - INFO - ✅ Successfully processed: Lesson_42_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:13,978 - __main__ - INFO - Processing attempt 1/3: Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:56:14,850 - __main__ - INFO - AI response received for: Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:14,851 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_43_Bio_12_4-3-25_annotated_flashcards.txt
+2025-06-06 21:56:15,274 - __main__ - INFO - AI response received for: Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:56:15,275 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_44_Bio_12_25-3-25_annotated_flashcards.txt
+2025-06-06 21:56:15,450 - __main__ - INFO - Completed 28/32: Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:15,451 - __main__ - INFO - File uploaded to Gemini: Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:56:15,452 - __main__ - INFO - ✅ Successfully processed: Lesson_43_Bio_12_4-3-25_annotated.pdf
+2025-06-06 21:56:15,636 - __main__ - INFO - AI response received for: Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:56:15,638 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_49_Bio_12_10-4-25_annotated_flashcards.txt
+2025-06-06 21:56:15,781 - __main__ - INFO - Completed 29/32: Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:56:15,782 - __main__ - INFO - ✅ Successfully processed: Lesson_44_Bio_12_25-3-25_annotated.pdf
+2025-06-06 21:56:16,143 - __main__ - INFO - Completed 30/32: Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:56:16,143 - __main__ - INFO - ✅ Successfully processed: Lesson_49_Bio_12_10-4-25_annotated.pdf
+2025-06-06 21:56:16,469 - __main__ - INFO - AI response received for: Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:56:16,470 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_46_Bio_12_1-4-25_annotated_flashcards.txt
+2025-06-06 21:56:16,976 - __main__ - INFO - Completed 31/32: Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:56:16,977 - __main__ - INFO - ✅ Successfully processed: Lesson_46_Bio_12_1-4-25_annotated.pdf
+2025-06-06 21:56:18,261 - __main__ - INFO - AI response received for: Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:56:18,265 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpv49pjg33/output/Lesson_52_Bio_12_22-4-25_annotated_flashcards.txt
+2025-06-06 21:56:18,771 - __main__ - INFO - Completed 32/32: Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:56:18,771 - __main__ - INFO - ✅ Successfully processed: Lesson_52_Bio_12_22-4-25_annotated.pdf
+2025-06-06 21:56:18,773 - __main__ - INFO - === Processing complete: 32/32 files successful ===
+2025-06-06 21:56:18,812 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:56:18] "POST /process_files HTTP/1.1" 200 -
+2025-06-06 21:57:22,505 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:57:22,509 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:58:22,287 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:58:22,287 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:58:22,410 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.86.44:8080
+2025-06-06 21:58:22,411 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 21:58:22,415 - werkzeug - INFO -  * Restarting with stat
+2025-06-06 21:58:23,955 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:58:23,956 - __main__ - INFO - 🚀 Starting FlashCard Generator Web Application on port 8080
+2025-06-06 21:58:24,045 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 21:58:24,078 - werkzeug - INFO -  * Debugger PIN: 144-029-226
+2025-06-06 21:58:36,056 - root - INFO - 📄 Serving main web interface
+2025-06-06 21:58:36,111 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:58:36] "GET / HTTP/1.1" 200 -
+2025-06-06 21:58:36,687 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:58:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-06 21:58:36,704 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 21:58:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-06-06 21:59:00,000 - __main__ - INFO - === Starting file processing request ===
+2025-06-06 21:59:00,346 - __main__ - INFO - Received 23 files
+2025-06-06 21:59:00,346 - __main__ - INFO - Custom prompt provided: Yes
+2025-06-06 21:59:00,347 - __main__ - INFO - Custom prompt (first 100 chars): You are analyzing a test document. Your task is to:
+
+1. Extract ALL test questions from the docume...
+2025-06-06 21:59:00,347 - __main__ - INFO - ✅ Google API key found
+2025-06-06 21:59:00,348 - __main__ - INFO - Valid files to process: ['IMG_5114.JPG', 'IMG_5115.JPG', 'IMG_5116.JPG', 'IMG_5117.JPG', 'IMG_5118.JPG', 'IMG_5119.JPG', 'IMG_5120.JPG', 'IMG_5121.JPG', 'IMG_5122.JPG', 'IMG_5123.JPG', 'IMG_5124.JPG', 'IMG_5125.JPG', 'IMG_5126.JPG', 'IMG_5127.JPG', 'IMG_5128.JPG', 'IMG_5129.JPG', 'IMG_5130.JPG', 'IMG_5131.JPG', 'IMG_5132.JPG', 'IMG_5133.JPG', 'IMG_5134.JPG', 'IMG_5135.JPG', 'IMG_5136.JPG']
+2025-06-06 21:59:00,349 - __main__ - INFO - Created temporary directories: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input, /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output
+2025-06-06 21:59:00,359 - __main__ - INFO - Saved file: IMG_5114.JPG (2691762 bytes)
+2025-06-06 21:59:00,371 - __main__ - INFO - Saved file: IMG_5115.JPG (3295543 bytes)
+2025-06-06 21:59:00,387 - __main__ - INFO - Saved file: IMG_5116.JPG (3049867 bytes)
+2025-06-06 21:59:00,395 - __main__ - INFO - Saved file: IMG_5117.JPG (2633233 bytes)
+2025-06-06 21:59:00,405 - __main__ - INFO - Saved file: IMG_5118.JPG (2787534 bytes)
+2025-06-06 21:59:00,410 - __main__ - INFO - Saved file: IMG_5119.JPG (1810459 bytes)
+2025-06-06 21:59:00,420 - __main__ - INFO - Saved file: IMG_5120.JPG (2977526 bytes)
+2025-06-06 21:59:00,431 - __main__ - INFO - Saved file: IMG_5121.JPG (4133238 bytes)
+2025-06-06 21:59:00,442 - __main__ - INFO - Saved file: IMG_5122.JPG (2544361 bytes)
+2025-06-06 21:59:00,454 - __main__ - INFO - Saved file: IMG_5123.JPG (3030141 bytes)
+2025-06-06 21:59:00,465 - __main__ - INFO - Saved file: IMG_5124.JPG (3090433 bytes)
+2025-06-06 21:59:00,479 - __main__ - INFO - Saved file: IMG_5125.JPG (3940467 bytes)
+2025-06-06 21:59:00,495 - __main__ - INFO - Saved file: IMG_5126.JPG (3358069 bytes)
+2025-06-06 21:59:00,508 - __main__ - INFO - Saved file: IMG_5127.JPG (3314462 bytes)
+2025-06-06 21:59:00,525 - __main__ - INFO - Saved file: IMG_5128.JPG (4206802 bytes)
+2025-06-06 21:59:00,540 - __main__ - INFO - Saved file: IMG_5129.JPG (2978004 bytes)
+2025-06-06 21:59:00,549 - __main__ - INFO - Saved file: IMG_5130.JPG (2690057 bytes)
+2025-06-06 21:59:00,561 - __main__ - INFO - Saved file: IMG_5131.JPG (2906726 bytes)
+2025-06-06 21:59:00,570 - __main__ - INFO - Saved file: IMG_5132.JPG (2816300 bytes)
+2025-06-06 21:59:00,583 - __main__ - INFO - Saved file: IMG_5133.JPG (3221934 bytes)
+2025-06-06 21:59:00,597 - __main__ - INFO - Saved file: IMG_5134.JPG (3791085 bytes)
+2025-06-06 21:59:00,608 - __main__ - INFO - Saved file: IMG_5135.JPG (3030397 bytes)
+2025-06-06 21:59:00,617 - __main__ - INFO - Saved file: IMG_5136.JPG (3105190 bytes)
+2025-06-06 21:59:00,617 - __main__ - INFO - Starting parallel processing with 5 workers for 23 files
+2025-06-06 21:59:00,624 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5114.JPG
+2025-06-06 21:59:00,624 - __main__ - INFO - Submitted IMG_5114.JPG for processing
+2025-06-06 21:59:00,625 - __main__ - INFO - Using custom prompt for IMG_5114.JPG
+2025-06-06 21:59:00,625 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5115.JPG
+2025-06-06 21:59:00,625 - __main__ - INFO - Submitted IMG_5115.JPG for processing
+2025-06-06 21:59:00,626 - __main__ - INFO - Processing attempt 1/3: IMG_5114.JPG
+2025-06-06 21:59:00,626 - __main__ - INFO - Using custom prompt for IMG_5115.JPG
+2025-06-06 21:59:00,626 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5116.JPG
+2025-06-06 21:59:00,628 - __main__ - INFO - Submitted IMG_5116.JPG for processing
+2025-06-06 21:59:00,628 - __main__ - INFO - Processing attempt 1/3: IMG_5115.JPG
+2025-06-06 21:59:00,628 - __main__ - INFO - Using custom prompt for IMG_5116.JPG
+2025-06-06 21:59:00,629 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5117.JPG
+2025-06-06 21:59:00,629 - __main__ - INFO - Submitted IMG_5117.JPG for processing
+2025-06-06 21:59:00,630 - __main__ - INFO - Processing attempt 1/3: IMG_5116.JPG
+2025-06-06 21:59:00,630 - __main__ - INFO - Using custom prompt for IMG_5117.JPG
+2025-06-06 21:59:00,631 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5118.JPG
+2025-06-06 21:59:00,632 - __main__ - INFO - Submitted IMG_5118.JPG for processing
+2025-06-06 21:59:00,633 - __main__ - INFO - Processing attempt 1/3: IMG_5117.JPG
+2025-06-06 21:59:00,634 - __main__ - INFO - Using custom prompt for IMG_5118.JPG
+2025-06-06 21:59:00,635 - __main__ - INFO - Submitted IMG_5119.JPG for processing
+2025-06-06 21:59:00,636 - __main__ - INFO - Processing attempt 1/3: IMG_5118.JPG
+2025-06-06 21:59:00,638 - __main__ - INFO - Submitted IMG_5120.JPG for processing
+2025-06-06 21:59:00,640 - __main__ - INFO - Submitted IMG_5121.JPG for processing
+2025-06-06 21:59:00,640 - __main__ - INFO - Submitted IMG_5122.JPG for processing
+2025-06-06 21:59:00,645 - __main__ - INFO - Submitted IMG_5123.JPG for processing
+2025-06-06 21:59:00,646 - __main__ - INFO - Submitted IMG_5124.JPG for processing
+2025-06-06 21:59:00,646 - __main__ - INFO - Submitted IMG_5125.JPG for processing
+2025-06-06 21:59:00,646 - __main__ - INFO - Submitted IMG_5126.JPG for processing
+2025-06-06 21:59:00,647 - __main__ - INFO - Submitted IMG_5127.JPG for processing
+2025-06-06 21:59:00,647 - __main__ - INFO - Submitted IMG_5128.JPG for processing
+2025-06-06 21:59:00,648 - __main__ - INFO - Submitted IMG_5129.JPG for processing
+2025-06-06 21:59:00,648 - __main__ - INFO - Submitted IMG_5130.JPG for processing
+2025-06-06 21:59:00,648 - __main__ - INFO - Submitted IMG_5131.JPG for processing
+2025-06-06 21:59:00,648 - __main__ - INFO - Submitted IMG_5132.JPG for processing
+2025-06-06 21:59:00,648 - __main__ - INFO - Submitted IMG_5133.JPG for processing
+2025-06-06 21:59:00,649 - __main__ - INFO - Submitted IMG_5134.JPG for processing
+2025-06-06 21:59:00,649 - __main__ - INFO - Submitted IMG_5135.JPG for processing
+2025-06-06 21:59:00,649 - __main__ - INFO - Submitted IMG_5136.JPG for processing
+2025-06-06 21:59:02,882 - __main__ - INFO - File uploaded to Gemini: IMG_5117.JPG
+2025-06-06 21:59:02,932 - __main__ - INFO - File uploaded to Gemini: IMG_5118.JPG
+2025-06-06 21:59:03,069 - __main__ - INFO - File uploaded to Gemini: IMG_5116.JPG
+2025-06-06 21:59:03,366 - __main__ - INFO - File uploaded to Gemini: IMG_5115.JPG
+2025-06-06 21:59:03,410 - __main__ - INFO - File uploaded to Gemini: IMG_5114.JPG
+2025-06-06 21:59:06,809 - __main__ - INFO - AI response received for: IMG_5117.JPG
+2025-06-06 21:59:06,812 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5117_flashcards.txt
+2025-06-06 21:59:07,168 - __main__ - INFO - AI response received for: IMG_5116.JPG
+2025-06-06 21:59:07,170 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5116_flashcards.txt
+2025-06-06 21:59:07,315 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5119.JPG
+2025-06-06 21:59:07,315 - __main__ - INFO - Completed 1/23: IMG_5117.JPG
+2025-06-06 21:59:07,316 - __main__ - INFO - Using custom prompt for IMG_5119.JPG
+2025-06-06 21:59:07,316 - __main__ - INFO - ✅ Successfully processed: IMG_5117.JPG
+2025-06-06 21:59:07,317 - __main__ - INFO - Processing attempt 1/3: IMG_5119.JPG
+2025-06-06 21:59:07,675 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5120.JPG
+2025-06-06 21:59:07,675 - __main__ - INFO - Completed 2/23: IMG_5116.JPG
+2025-06-06 21:59:07,676 - __main__ - INFO - Using custom prompt for IMG_5120.JPG
+2025-06-06 21:59:07,676 - __main__ - INFO - ✅ Successfully processed: IMG_5116.JPG
+2025-06-06 21:59:07,677 - __main__ - INFO - Processing attempt 1/3: IMG_5120.JPG
+2025-06-06 21:59:07,999 - __main__ - INFO - AI response received for: IMG_5115.JPG
+2025-06-06 21:59:08,001 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5115_flashcards.txt
+2025-06-06 21:59:08,505 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5121.JPG
+2025-06-06 21:59:08,506 - __main__ - INFO - Completed 3/23: IMG_5115.JPG
+2025-06-06 21:59:08,506 - __main__ - INFO - Using custom prompt for IMG_5121.JPG
+2025-06-06 21:59:08,506 - __main__ - INFO - ✅ Successfully processed: IMG_5115.JPG
+2025-06-06 21:59:08,506 - __main__ - INFO - Processing attempt 1/3: IMG_5121.JPG
+2025-06-06 21:59:08,901 - __main__ - INFO - AI response received for: IMG_5114.JPG
+2025-06-06 21:59:08,902 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5114_flashcards.txt
+2025-06-06 21:59:09,025 - __main__ - INFO - AI response received for: IMG_5118.JPG
+2025-06-06 21:59:09,026 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5118_flashcards.txt
+2025-06-06 21:59:09,405 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5122.JPG
+2025-06-06 21:59:09,406 - __main__ - INFO - Completed 4/23: IMG_5114.JPG
+2025-06-06 21:59:09,406 - __main__ - INFO - Using custom prompt for IMG_5122.JPG
+2025-06-06 21:59:09,406 - __main__ - INFO - ✅ Successfully processed: IMG_5114.JPG
+2025-06-06 21:59:09,407 - __main__ - INFO - Processing attempt 1/3: IMG_5122.JPG
+2025-06-06 21:59:09,531 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5123.JPG
+2025-06-06 21:59:09,532 - __main__ - INFO - Completed 5/23: IMG_5118.JPG
+2025-06-06 21:59:09,533 - __main__ - INFO - Using custom prompt for IMG_5123.JPG
+2025-06-06 21:59:09,534 - __main__ - INFO - ✅ Successfully processed: IMG_5118.JPG
+2025-06-06 21:59:09,536 - __main__ - INFO - Processing attempt 1/3: IMG_5123.JPG
+2025-06-06 21:59:09,537 - __main__ - INFO - File uploaded to Gemini: IMG_5119.JPG
+2025-06-06 21:59:09,921 - __main__ - INFO - File uploaded to Gemini: IMG_5120.JPG
+2025-06-06 21:59:11,254 - __main__ - INFO - File uploaded to Gemini: IMG_5121.JPG
+2025-06-06 21:59:11,757 - __main__ - INFO - File uploaded to Gemini: IMG_5122.JPG
+2025-06-06 21:59:11,851 - __main__ - INFO - File uploaded to Gemini: IMG_5123.JPG
+2025-06-06 21:59:12,340 - __main__ - INFO - AI response received for: IMG_5119.JPG
+2025-06-06 21:59:12,341 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5119_flashcards.txt
+2025-06-06 21:59:12,846 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5124.JPG
+2025-06-06 21:59:12,846 - __main__ - INFO - Completed 6/23: IMG_5119.JPG
+2025-06-06 21:59:12,847 - __main__ - INFO - Using custom prompt for IMG_5124.JPG
+2025-06-06 21:59:12,847 - __main__ - INFO - ✅ Successfully processed: IMG_5119.JPG
+2025-06-06 21:59:12,848 - __main__ - INFO - Processing attempt 1/3: IMG_5124.JPG
+2025-06-06 21:59:13,212 - __main__ - INFO - AI response received for: IMG_5120.JPG
+2025-06-06 21:59:13,214 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5120_flashcards.txt
+2025-06-06 21:59:13,719 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5125.JPG
+2025-06-06 21:59:13,720 - __main__ - INFO - Completed 7/23: IMG_5120.JPG
+2025-06-06 21:59:13,721 - __main__ - INFO - Using custom prompt for IMG_5125.JPG
+2025-06-06 21:59:13,721 - __main__ - INFO - ✅ Successfully processed: IMG_5120.JPG
+2025-06-06 21:59:13,722 - __main__ - INFO - Processing attempt 1/3: IMG_5125.JPG
+2025-06-06 21:59:14,999 - __main__ - INFO - AI response received for: IMG_5122.JPG
+2025-06-06 21:59:15,000 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5122_flashcards.txt
+2025-06-06 21:59:15,001 - __main__ - INFO - File uploaded to Gemini: IMG_5124.JPG
+2025-06-06 21:59:15,505 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5126.JPG
+2025-06-06 21:59:15,506 - __main__ - INFO - Completed 8/23: IMG_5122.JPG
+2025-06-06 21:59:15,507 - __main__ - INFO - Using custom prompt for IMG_5126.JPG
+2025-06-06 21:59:15,507 - __main__ - INFO - ✅ Successfully processed: IMG_5122.JPG
+2025-06-06 21:59:15,508 - __main__ - INFO - Processing attempt 1/3: IMG_5126.JPG
+2025-06-06 21:59:15,729 - __main__ - INFO - AI response received for: IMG_5121.JPG
+2025-06-06 21:59:15,730 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5121_flashcards.txt
+2025-06-06 21:59:16,068 - __main__ - INFO - AI response received for: IMG_5123.JPG
+2025-06-06 21:59:16,071 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5123_flashcards.txt
+2025-06-06 21:59:16,233 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5127.JPG
+2025-06-06 21:59:16,233 - __main__ - INFO - Completed 9/23: IMG_5121.JPG
+2025-06-06 21:59:16,234 - __main__ - INFO - Using custom prompt for IMG_5127.JPG
+2025-06-06 21:59:16,234 - __main__ - INFO - ✅ Successfully processed: IMG_5121.JPG
+2025-06-06 21:59:16,234 - __main__ - INFO - Processing attempt 1/3: IMG_5127.JPG
+2025-06-06 21:59:16,478 - __main__ - INFO - File uploaded to Gemini: IMG_5125.JPG
+2025-06-06 21:59:16,627 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5128.JPG
+2025-06-06 21:59:16,628 - __main__ - INFO - Using custom prompt for IMG_5128.JPG
+2025-06-06 21:59:16,645 - __main__ - INFO - Processing attempt 1/3: IMG_5128.JPG
+2025-06-06 21:59:16,637 - __main__ - INFO - Completed 10/23: IMG_5123.JPG
+2025-06-06 21:59:16,653 - __main__ - INFO - ✅ Successfully processed: IMG_5123.JPG
+2025-06-06 21:59:17,802 - __main__ - INFO - File uploaded to Gemini: IMG_5126.JPG
+2025-06-06 21:59:18,826 - __main__ - INFO - File uploaded to Gemini: IMG_5127.JPG
+2025-06-06 21:59:19,257 - __main__ - INFO - File uploaded to Gemini: IMG_5128.JPG
+2025-06-06 21:59:21,134 - __main__ - INFO - AI response received for: IMG_5125.JPG
+2025-06-06 21:59:21,136 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5125_flashcards.txt
+2025-06-06 21:59:21,289 - __main__ - INFO - AI response received for: IMG_5124.JPG
+2025-06-06 21:59:21,290 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5124_flashcards.txt
+2025-06-06 21:59:21,299 - __main__ - INFO - AI response received for: IMG_5126.JPG
+2025-06-06 21:59:21,300 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5126_flashcards.txt
+2025-06-06 21:59:21,642 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5129.JPG
+2025-06-06 21:59:21,643 - __main__ - INFO - Completed 11/23: IMG_5125.JPG
+2025-06-06 21:59:21,644 - __main__ - INFO - Using custom prompt for IMG_5129.JPG
+2025-06-06 21:59:21,644 - __main__ - INFO - ✅ Successfully processed: IMG_5125.JPG
+2025-06-06 21:59:21,645 - __main__ - INFO - Processing attempt 1/3: IMG_5129.JPG
+2025-06-06 21:59:21,795 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5130.JPG
+2025-06-06 21:59:21,795 - __main__ - INFO - Completed 12/23: IMG_5124.JPG
+2025-06-06 21:59:21,795 - __main__ - INFO - Using custom prompt for IMG_5130.JPG
+2025-06-06 21:59:21,795 - __main__ - INFO - ✅ Successfully processed: IMG_5124.JPG
+2025-06-06 21:59:21,795 - __main__ - INFO - Processing attempt 1/3: IMG_5130.JPG
+2025-06-06 21:59:21,805 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5131.JPG
+2025-06-06 21:59:21,805 - __main__ - INFO - Completed 13/23: IMG_5126.JPG
+2025-06-06 21:59:21,805 - __main__ - INFO - Using custom prompt for IMG_5131.JPG
+2025-06-06 21:59:21,806 - __main__ - INFO - ✅ Successfully processed: IMG_5126.JPG
+2025-06-06 21:59:21,806 - __main__ - INFO - Processing attempt 1/3: IMG_5131.JPG
+2025-06-06 21:59:22,988 - __main__ - INFO - AI response received for: IMG_5127.JPG
+2025-06-06 21:59:22,989 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5127_flashcards.txt
+2025-06-06 21:59:23,059 - __main__ - INFO - AI response received for: IMG_5128.JPG
+2025-06-06 21:59:23,064 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5128_flashcards.txt
+2025-06-06 21:59:23,494 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5132.JPG
+2025-06-06 21:59:23,495 - __main__ - INFO - Completed 14/23: IMG_5127.JPG
+2025-06-06 21:59:23,497 - __main__ - INFO - Using custom prompt for IMG_5132.JPG
+2025-06-06 21:59:23,498 - __main__ - INFO - ✅ Successfully processed: IMG_5127.JPG
+2025-06-06 21:59:23,498 - __main__ - INFO - Processing attempt 1/3: IMG_5132.JPG
+2025-06-06 21:59:23,570 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5133.JPG
+2025-06-06 21:59:23,570 - __main__ - INFO - Completed 15/23: IMG_5128.JPG
+2025-06-06 21:59:23,571 - __main__ - INFO - Using custom prompt for IMG_5133.JPG
+2025-06-06 21:59:23,572 - __main__ - INFO - ✅ Successfully processed: IMG_5128.JPG
+2025-06-06 21:59:23,572 - __main__ - INFO - Processing attempt 1/3: IMG_5133.JPG
+2025-06-06 21:59:23,873 - __main__ - INFO - File uploaded to Gemini: IMG_5129.JPG
+2025-06-06 21:59:24,405 - __main__ - INFO - File uploaded to Gemini: IMG_5130.JPG
+2025-06-06 21:59:24,646 - __main__ - INFO - File uploaded to Gemini: IMG_5131.JPG
+2025-06-06 21:59:24,658 - __main__ - ERROR - ❌ Error processing IMG_5130.JPG (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-06-06 21:59:24,659 - __main__ - WARNING - Rate limit hit for IMG_5130.JPG, waiting 35s before retry...
+2025-06-06 21:59:24,899 - __main__ - ERROR - ❌ Error processing IMG_5131.JPG (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-06-06 21:59:24,899 - __main__ - WARNING - Rate limit hit for IMG_5131.JPG, waiting 35s before retry...
+2025-06-06 21:59:26,180 - __main__ - INFO - File uploaded to Gemini: IMG_5132.JPG
+2025-06-06 21:59:26,403 - __main__ - ERROR - ❌ Error processing IMG_5132.JPG (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-06-06 21:59:26,403 - __main__ - WARNING - Rate limit hit for IMG_5132.JPG, waiting 33s before retry...
+2025-06-06 21:59:26,575 - __main__ - INFO - File uploaded to Gemini: IMG_5133.JPG
+2025-06-06 21:59:26,881 - __main__ - ERROR - ❌ Error processing IMG_5133.JPG (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-06-06 21:59:26,882 - __main__ - WARNING - Rate limit hit for IMG_5133.JPG, waiting 33s before retry...
+2025-06-06 21:59:27,371 - __main__ - INFO - AI response received for: IMG_5129.JPG
+2025-06-06 21:59:27,372 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5129_flashcards.txt
+2025-06-06 21:59:27,875 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5134.JPG
+2025-06-06 21:59:27,875 - __main__ - INFO - Completed 16/23: IMG_5129.JPG
+2025-06-06 21:59:27,876 - __main__ - INFO - Using custom prompt for IMG_5134.JPG
+2025-06-06 21:59:27,877 - __main__ - INFO - ✅ Successfully processed: IMG_5129.JPG
+2025-06-06 21:59:27,877 - __main__ - INFO - Processing attempt 1/3: IMG_5134.JPG
+2025-06-06 21:59:30,566 - __main__ - INFO - File uploaded to Gemini: IMG_5134.JPG
+2025-06-06 21:59:31,084 - __main__ - ERROR - ❌ Error processing IMG_5134.JPG (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-06-06 21:59:31,084 - __main__ - WARNING - Rate limit hit for IMG_5134.JPG, waiting 29s before retry...
+2025-06-06 21:59:59,407 - __main__ - INFO - Processing attempt 2/3: IMG_5132.JPG
+2025-06-06 21:59:59,663 - __main__ - INFO - Processing attempt 2/3: IMG_5130.JPG
+2025-06-06 21:59:59,886 - __main__ - INFO - Processing attempt 2/3: IMG_5133.JPG
+2025-06-06 21:59:59,904 - __main__ - INFO - Processing attempt 2/3: IMG_5131.JPG
+2025-06-06 22:00:00,089 - __main__ - INFO - Processing attempt 2/3: IMG_5134.JPG
+2025-06-06 22:00:01,644 - __main__ - INFO - File uploaded to Gemini: IMG_5132.JPG
+2025-06-06 22:00:01,840 - __main__ - ERROR - ❌ Error processing IMG_5132.JPG (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-06-06 22:00:01,841 - __main__ - WARNING - Rate limit hit for IMG_5132.JPG, waiting 58s before retry...
+2025-06-06 22:00:01,951 - __main__ - INFO - File uploaded to Gemini: IMG_5130.JPG
+2025-06-06 22:00:02,156 - __main__ - ERROR - ❌ Error processing IMG_5130.JPG (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-06-06 22:00:02,157 - __main__ - WARNING - Rate limit hit for IMG_5130.JPG, waiting 57s before retry...
+2025-06-06 22:00:02,166 - __main__ - INFO - File uploaded to Gemini: IMG_5131.JPG
+2025-06-06 22:00:02,302 - __main__ - INFO - File uploaded to Gemini: IMG_5133.JPG
+2025-06-06 22:00:02,322 - __main__ - INFO - File uploaded to Gemini: IMG_5134.JPG
+2025-06-06 22:00:02,373 - __main__ - ERROR - ❌ Error processing IMG_5131.JPG (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-06-06 22:00:02,374 - __main__ - WARNING - Rate limit hit for IMG_5131.JPG, waiting 57s before retry...
+2025-06-06 22:00:02,553 - __main__ - ERROR - ❌ Error processing IMG_5133.JPG (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-06-06 22:00:02,554 - __main__ - WARNING - Rate limit hit for IMG_5133.JPG, waiting 57s before retry...
+2025-06-06 22:00:02,593 - __main__ - ERROR - ❌ Error processing IMG_5134.JPG (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-06-06 22:00:02,593 - __main__ - WARNING - Rate limit hit for IMG_5134.JPG, waiting 57s before retry...
+2025-06-06 22:00:59,161 - __main__ - INFO - Processing attempt 3/3: IMG_5130.JPG
+2025-06-06 22:00:59,379 - __main__ - INFO - Processing attempt 3/3: IMG_5131.JPG
+2025-06-06 22:00:59,557 - __main__ - INFO - Processing attempt 3/3: IMG_5133.JPG
+2025-06-06 22:00:59,597 - __main__ - INFO - Processing attempt 3/3: IMG_5134.JPG
+2025-06-06 22:00:59,845 - __main__ - INFO - Processing attempt 3/3: IMG_5132.JPG
+2025-06-06 22:01:01,127 - __main__ - INFO - File uploaded to Gemini: IMG_5131.JPG
+2025-06-06 22:01:01,172 - __main__ - INFO - File uploaded to Gemini: IMG_5130.JPG
+2025-06-06 22:01:01,425 - __main__ - INFO - File uploaded to Gemini: IMG_5133.JPG
+2025-06-06 22:01:01,594 - __main__ - INFO - File uploaded to Gemini: IMG_5134.JPG
+2025-06-06 22:01:01,959 - __main__ - INFO - File uploaded to Gemini: IMG_5132.JPG
+2025-06-06 22:01:04,364 - __main__ - INFO - AI response received for: IMG_5134.JPG
+2025-06-06 22:01:04,367 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5134_flashcards.txt
+2025-06-06 22:01:04,871 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5135.JPG
+2025-06-06 22:01:04,871 - __main__ - INFO - Completed 17/23: IMG_5134.JPG
+2025-06-06 22:01:04,872 - __main__ - INFO - Using custom prompt for IMG_5135.JPG
+2025-06-06 22:01:04,872 - __main__ - INFO - ✅ Successfully processed: IMG_5134.JPG
+2025-06-06 22:01:04,872 - __main__ - INFO - Processing attempt 1/3: IMG_5135.JPG
+2025-06-06 22:01:04,981 - __main__ - INFO - AI response received for: IMG_5130.JPG
+2025-06-06 22:01:04,982 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5130_flashcards.txt
+2025-06-06 22:01:05,487 - __main__ - INFO - Starting to process file: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/input/IMG_5136.JPG
+2025-06-06 22:01:05,487 - __main__ - INFO - Completed 18/23: IMG_5130.JPG
+2025-06-06 22:01:05,491 - __main__ - INFO - Using custom prompt for IMG_5136.JPG
+2025-06-06 22:01:05,492 - __main__ - INFO - ✅ Successfully processed: IMG_5130.JPG
+2025-06-06 22:01:05,492 - __main__ - INFO - Processing attempt 1/3: IMG_5136.JPG
+2025-06-06 22:01:05,867 - __main__ - INFO - AI response received for: IMG_5133.JPG
+2025-06-06 22:01:05,868 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5133_flashcards.txt
+2025-06-06 22:01:06,163 - __main__ - INFO - AI response received for: IMG_5132.JPG
+2025-06-06 22:01:06,165 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5132_flashcards.txt
+2025-06-06 22:01:06,373 - __main__ - INFO - Completed 19/23: IMG_5133.JPG
+2025-06-06 22:01:06,373 - __main__ - INFO - ✅ Successfully processed: IMG_5133.JPG
+2025-06-06 22:01:06,513 - __main__ - INFO - AI response received for: IMG_5131.JPG
+2025-06-06 22:01:06,515 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5131_flashcards.txt
+2025-06-06 22:01:06,670 - __main__ - INFO - Completed 20/23: IMG_5132.JPG
+2025-06-06 22:01:06,671 - __main__ - INFO - ✅ Successfully processed: IMG_5132.JPG
+2025-06-06 22:01:07,019 - __main__ - INFO - Completed 21/23: IMG_5131.JPG
+2025-06-06 22:01:07,019 - __main__ - INFO - ✅ Successfully processed: IMG_5131.JPG
+2025-06-06 22:01:07,150 - __main__ - INFO - File uploaded to Gemini: IMG_5135.JPG
+2025-06-06 22:01:08,308 - __main__ - INFO - File uploaded to Gemini: IMG_5136.JPG
+2025-06-06 22:01:10,259 - __main__ - INFO - AI response received for: IMG_5135.JPG
+2025-06-06 22:01:10,260 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5135_flashcards.txt
+2025-06-06 22:01:10,765 - __main__ - INFO - Completed 22/23: IMG_5135.JPG
+2025-06-06 22:01:10,766 - __main__ - INFO - ✅ Successfully processed: IMG_5135.JPG
+2025-06-06 22:01:11,634 - __main__ - INFO - AI response received for: IMG_5136.JPG
+2025-06-06 22:01:11,636 - __main__ - INFO - ✅ Flashcards saved successfully: /var/folders/_b/yknzb_0n6z7b2cfk5j2pynx80000gp/T/tmpm5vfwdm8/output/IMG_5136_flashcards.txt
+2025-06-06 22:01:12,139 - __main__ - INFO - Completed 23/23: IMG_5136.JPG
+2025-06-06 22:01:12,139 - __main__ - INFO - ✅ Successfully processed: IMG_5136.JPG
+2025-06-06 22:01:12,141 - __main__ - INFO - === Processing complete: 23/23 files successful ===
+2025-06-06 22:01:12,182 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 22:01:12] "POST /process_files HTTP/1.1" 200 -
